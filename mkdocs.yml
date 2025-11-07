@@ -24,7 +24,6 @@ plugins:
           build: true
           nav_translations:
             Home: "Inicio"
-            Overview: "Visión general"
             River Forecast System: "River Forecast System"
             Part 1 Model Formulation: "Parte 1: Formulación del Modelo"
             Model Formulation: "Formulación del Modelo"
@@ -72,7 +71,6 @@ theme:
         name: Switch to light mode
 nav:
   - Home: index.md
-  - Overview: overview.md
   - River Forecast System:
       - Part 1 Model Formulation:
           - Model Formulation: rfs/model-formulation/model-formulation.md

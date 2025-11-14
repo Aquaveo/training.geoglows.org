@@ -46,7 +46,9 @@ There are several additional layers that provide additional information. Some of
 
 ![Environmental Map](../../static/images/environmental-map.png)
 
-2. WMO HydroSOS layers: Many RFS users participate in WMO activities such as HydroSOS. The HydroSOS program is evolving so this is not a finalized product. However, you can enable the layer and use the time slider to find a month that you want to view in the last 35 years. There is a dark red, light red, neutral yellow, light blue and dark blue which indicate if the basin was dry, normal, or wet relative to the normal amount over the period of 1990-2019
+2. WMO HydroSOS layers: Many RFS users participate in WMO activities such as HydroSOS. The HydroSOS program is evolving so this is not a finalized product. However, you can enable the layer and use the time slider to find a month that you want to view in the last 35 years. There is a dark red, light red, neutral yellow, light blue and dark blue which indicate if the basin was dry, normal, or wet relative to the normal amount over the period of 1990-2019.
+
+![HydroSOS Layers](../../static/images/hydrosos-layer.png)
 
 ### Filtering Data
 

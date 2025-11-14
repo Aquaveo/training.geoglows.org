@@ -88,7 +88,7 @@ nav:
           - Finding River Numbers: rfs/tutorials/find-river-numbers.md
           - Querying Data: rfs/tutorials/query-data.md
           - API (Data Service): rfs/tutorials/data-service.md
-          - Web Maps: rfs/tutorials/web-map.md
+          - Web Maps (GIS Layer): rfs/tutorials/web-map.md
       - Part 5 Bias Correction:
           - SABER Method: rfs/bias-correction/bias-correction.md
           - Correcting Forecasts: rfs/bias-correction/forecasted-bias-correction.md

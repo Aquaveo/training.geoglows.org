@@ -46,6 +46,8 @@ Hay varias capas adicionales que proporcionan información extra. Algunas de est
 
 2. **Capas WMO HydroSOS:** Muchos usuarios de RFS participan en actividades de la OMM, como HydroSOS. El programa HydroSOS está en evolución, por lo que no es un producto finalizado. Sin embargo, puede activar la capa y usar el deslizador de tiempo para seleccionar un mes en los últimos 35 años. Hay colores rojo oscuro, rojo claro, amarillo neutro, azul claro y azul oscuro que indican si la cuenca estaba seca, normal o húmeda respecto a la media del período 1990-2019.
 
+![HydroSOS Layers](../../static/images/hydrosos-layer.png)
+
 ### Filtrado de datos
 
 Los datos también se pueden filtrar haciendo clic en el botón de filtro en el lado izquierdo. Allí encontrará opciones para filtrar según:

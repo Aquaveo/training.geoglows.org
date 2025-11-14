@@ -9,7 +9,7 @@
 
 La simulación retrospectiva de RFS es una simulación determinista con una duración de más de 85 años, a resolución horaria, que comienza el 1 de enero de 1940. La simulación retrospectiva y muchos productos derivados se actualizan semanalmente. Está basada en el conjunto de datos ERA5. Los nuevos datos de ERA5 se producen cada día con un desfase de 5 días respecto al tiempo real, por lo tanto, el mínimo desfase posible es de 5 días. Una vez a la semana, todos los nuevos datos de ERA5 desde la última simulación se utilizan para extender la simulación retrospectiva, devolviendo el desfase a 5 días.
 
-![image](../../static/images/retrospective_graph.png)
+![image](../../static/images/retro_es.png)
 
 El conjunto de datos es determinista y está basado en modelado de superficie terrestre mediante reanálisis, lo que significa que hay solo 1 valor por intervalo de tiempo, a diferencia de los pronósticos. La simulación retrospectiva proporciona caudales promedio horarios que se remuestrean a promedios diarios, mensuales y anuales. Los caudales se reportan como el promedio que ocurrió durante el siguiente intervalo (hora, día, mes o año). Las fechas se reportan al inicio del intervalo en la zona horaria UTC +00:00 (por ejemplo, fechas "alineadas a la izquierda"). El valor dado representa el caudal promedio desde ese momento hasta el siguiente intervalo. Todos los valores están en metros cúbicos por segundo.
 

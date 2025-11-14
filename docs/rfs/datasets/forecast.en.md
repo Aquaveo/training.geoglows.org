@@ -10,7 +10,7 @@ RFS produces ensemble streamflow forecasts using IFS data from the ECMWF. Daily 
 Bologna, Italy and are available by 12 PM UTC. Flows are reported in cubic meters per second. The forecast has a **3-hour time step**, where each flow
 value represents the average flow that occurred in the river during the previous 3 hours. Below is an example graph showing all the ensemble members.
 
-![image](../../static/images/img17.png)
+![image](../../static/images/forecast_ensemble.png)
 
 Each forecast includes a **50+1 member ensemble** meaning there is **1 baseline (control)** prediction and **50 perturbations** (slight variations) of
 the baseline condition.
@@ -46,5 +46,5 @@ In the following example forecast plot, there are 3 areas to focus on:
 - **Blue Shaded Area:** Represents the uncertainty in the prediction. It is the middle 60% of the ensemble. The narrower the blue region, the more
   confident the model is. The true flow is more likely than not to fall within the blue shaded area.
 
-![image](../../static/images/img8.png)
+![image](../../static/images/forecast.png)
 

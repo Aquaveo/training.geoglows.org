@@ -14,7 +14,7 @@ the [tutorial on finding river numbers](find-river-numbers.en.md) before proceed
 The simplest way to download data from the data service is using the official Python client package titled "geoglows". For complete tutorials, please
 refer to the [geoglows Python package documentation](https://geoglows.readthedocs.io){:target="_blank"}.
 
-For snippets of code for commonly needed tasks, see the [Cookbook](../tutorials/code-snippets.md).
+For snippets of code for commonly needed tasks, see the [Cookbook](../accessing-data/code-snippets.md).
 
 ## Python Example
 

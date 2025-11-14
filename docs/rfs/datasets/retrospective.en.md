@@ -15,7 +15,7 @@ simulation and many derivative products are updated weekly. It is based on the E
 real time so the least amount of lag possible is 5 days. Once a week, all new ERA5 data since the last simulation are used to extend the retrospective
 simulation bringing the lag back down to 5 days.
 
-![image](../../static/images/retrospective_graph.png)
+![image](../../static/images/retro_data.png)
 
 The dataset is deterministic and based on reanalysis land surface modeling which means that there is only 1 value per timestep unlike the forecasts.
 The retrospective simulation provides hourly average flows which are resampled to daily, monthly, and yearly averages. Flows are reported as the

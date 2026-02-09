@@ -11,7 +11,7 @@ Para recuperar datos, necesitarás conocer el número de ID de los ríos que te 
 
 La forma más sencilla de descargar datos del servicio de datos es utilizando el paquete cliente oficial de Python titulado "geoglows". Para tutoriales completos, por favor consulta la [documentación del paquete Python geoglows](https://geoglows.readthedocs.io){:target="_blank"}.
 
-Para fragmentos de código para tareas comúnmente necesarias, consulta el [Recetario](../tutorials/code-snippets.md).
+Para fragmentos de código para tareas comúnmente necesarias, consulta el [Recetario](../accessing-data/code-snippets.md).
 
 ## Ejemplo en Python
 

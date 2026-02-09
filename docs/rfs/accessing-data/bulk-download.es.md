@@ -1,6 +1,6 @@
 !!! danger "La descarga masiva generalmente no es necesaria"
     La mayoría de los usuarios no necesitan este tutorial. Todos los productos de pronóstico y simulación retrospectiva están disponibles para consultas, descargas masivas y a través del servicio de datos. Sin embargo, las instrucciones para consultar datos son la forma más rápida, conveniente (y económica para GEOGLOWS) para la mayoría de los usos.  
-    Por favor, sigue el tutorial sobre [cómo consultar datos de ríos](query-data.es.md) antes de continuar con esta sección.
+    Por favor, sigue el tutorial sobre [cómo consultar datos de ríos](../tutorials/query-data.es.md) antes de continuar con esta sección.
 
 
 ## Referencias

@@ -8,7 +8,7 @@
 
 RFS produce predicciones de caudal en forma de ensambles utilizando datos IFS del ECMWF. Las predicciones diarias se calculan en el centro de supercomputación del ECMWF en Bolonia, Italia, y están disponibles a las 12:00 PM UTC. Los caudales se reportan en metros cúbicos por segundo. La predicción tiene un **paso temporal de 3 horas**, donde cada valor de caudal representa el promedio del caudal ocurrido en el río durante las 3 horas anteriores. A continuación, se muestra un gráfico de ejemplo con todos los miembros del ensamble.
 
-![imagen](../../static/images/img17.png)
+![imagen](../../static/images/forecast_ensemble.png)
 
 Cada predicción incluye un **ensamble de 50+1 miembros**, lo que significa que hay **1 predicción base (control)** y **50 perturbaciones** (variaciones leves) de la condición base.
 
@@ -37,4 +37,4 @@ En el siguiente gráfico de predicción de ejemplo, hay 3 elementos clave a obse
 - **Líneas Azules:** Los valores del percentil 20 y 80.
 - **Área Sombreada Azul:** Representa la incertidumbre en la predicción. Es el 60% medio del ensamble. Cuanto más estrecha sea la región azul, mayor será la confianza del modelo. Es más probable que el caudal real se encuentre dentro del área sombreada azul.
 
-![imagen](../../static/images/img8.png)
+![imagen](../../static/images/forecast_es.png)

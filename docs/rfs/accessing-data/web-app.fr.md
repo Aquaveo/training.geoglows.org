@@ -147,3 +147,15 @@ Les utilisateurs peuvent sauvegarder des rivières pour un accès répété via 
 Les rivières sauvegardées peuvent être consultées rapidement en cliquant sur l’icône graphique à côté de la rivière.
 
 ![Légende des périodes de retour](../../static/images/saved-rivers.png)
+
+## Génération de rapport (EXPÉRIMENTAL)
+
+Les utilisateurs peuvent générer des rapports à partir de leurs rivières enregistrées. Il s’agit d’une fonctionnalité expérimentale qui est encore en cours de mise à jour et d’ajustement. En générant un rapport, un utilisateur peut télécharger un fichier PDF contenant des informations de base sur les prévisions pour chacune des rivières. Dans le coin supérieur droit, il y a un menu qui inclut une icône représentant un presse-papiers.
+
+![Generate Reports](../../static/images/generate-report.png)
+
+Cela ouvre un menu où les utilisateurs peuvent sélectionner le type de rapport et le jour de prévision pour lequel ils souhaitent générer le rapport.
+
+![Generate Reports](../../static/images/reports-menu.png)
+
+Ensuite, l’utilisateur doit sélectionner « Préparer le rapport » et l’écran affichera le téléchargement des données et la mise en forme du rapport. Une fois prêt, l’utilisateur pourra sélectionner « Télécharger le ra

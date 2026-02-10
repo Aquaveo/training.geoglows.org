@@ -144,3 +144,15 @@ Los usuarios pueden guardar ríos para acceder rápidamente mediante la pestaña
 Los ríos guardados se pueden acceder rápidamente haciendo clic en el ícono de gráfico junto al río.
 
 ![Ríos guardados](../../static/images/saved-rivers_es.png)
+
+## Generación de Informes (EXPERIMENTAL)
+
+Los usuarios pueden generar informes a partir de sus ríos guardados. Esta es una función experimental que aún está siendo actualizada y ajustada. Al generar un informe, un usuario puede descargar un archivo PDF con información básica del pronóstico para cada uno de los ríos. En la esquina superior derecha, hay un menú que incluye un ícono con un portapapeles.
+
+![Generate Reports](../../static/images/generate-report.png)
+
+Esto abre un menú donde los usuarios pueden seleccionar el tipo de informe y para qué día de pronóstico desean generar el informe.
+
+![Generate Reports](../../static/images/reports-menu.png)
+
+A continuación, el usuario debe seleccionar **"Preparar Informe"**, y la pantalla mostrará cómo se descargan los datos y se formatea el informe. Una vez que esté listo, el usuario podrá seleccionar **"Descargar informe"**.

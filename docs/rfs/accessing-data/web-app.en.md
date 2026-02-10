@@ -147,3 +147,15 @@ Users can save rivers for repeated access via the bookmark tab at the top of the
 Saved rivers can be accessed quickly by clicking the chart icon next to the river.
 
 ![Legend for Return Periods](../../static/images/saved-rivers.png)
+
+## Generating Report (EXPERIMENTAL)
+
+Users can generate reports from their saved rivers. This is an experimental feature that is still being updated and adjusted. By generating a report, a user can download a pdf with basic forecast information about each of the rivers. On the upper right hand corner, there is a menu that includes an icon with a clipboard.
+
+![Generate Reports](../../static/images/generate-report.png)
+
+This opens a menu where users are able to select what type of report and for which forecast day they would like to generate the report.
+
+![Generate Reports](../../static/images/reports-menu.png)
+
+Next, a user should select "Prepare Report" and the screen will show the data being downloaded and the report being formatted. Once it is ready, the user will be able to select download report.

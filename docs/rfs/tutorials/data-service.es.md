@@ -13,7 +13,7 @@ Para utilizar la API, la mayoría de las funciones requieren que conozcas tu nú
 
 ### Uso del sitio web de la API
 
-Para utilizar el sitio web de la API, sigue estos pasos:
+Para utilizar [el sitio web de la API](https://geoglows.ecmwf.int/documentation), sigue estos pasos:
 
 **Paso 1:** Haz clic en el botón azul **“Get”** junto al comando que te interesa. Esto abrirá una ventana donde podrás ingresar tus parámetros.
 

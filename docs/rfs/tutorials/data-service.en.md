@@ -19,7 +19,7 @@ catalog or select a stream on the web application and get a river number that wa
 
 ### Using the API Website
 
-To use the API website, follow these steps:
+To use the [API website](https://geoglows.ecmwf.int/documentation), follow these steps:
 
 **Step 1:** Click the blue **“Get”** button next to the command you are interested in. This opens a window where you can enter your parameters.
 

@@ -6,11 +6,11 @@ Après application de la correction de biais, nous avons observé une améliorat
 
 La présentation suivante explique comment le RFS a été validé et détaille les méthodes de correction de biais.
 
-[GEOGLOWS - Correction de Biais.pdf](https://drive.google.com/file/d/1voFzujDRYzeacfhB5lTUboIUu3fqIvQZ/view?usp=sharing)
+[GEOGLOWS - Correction de Biais.pdf](https://drive.google.com/file/d/1-GyWh_lY2AjRTXM7aRknqmJiIEh_BqMd/view?usp=sharing)
 
 ## Apprentissage interactif – Correction de Biais
 
-Pour approfondir l’analyse de la correction de biais et de l’évaluation des performances, nous avons préparé un notebook interactif Google Colab. Ce notebook fournit un guide étape par étape pour réaliser ces analyses en utilisant des données réelles de la rivière Magdalena à El Banco en Colombie. Il couvre à la fois la correction de biais et l’évaluation des performances, vous permettant d’interagir avec les données et les méthodes présentées dans ce guide : [Bias_Correction_GEOGloWS_ECMWF_Hydrological_Model_Retrospective_Simulation Colab.ipynb](https://colab.research.google.com/drive/1_TGLCuq8l0M30mpOjXQ6ip2ROgOtWwfy?usp=sharing).
+Pour approfondir l’analyse de la correction de biais et de l’évaluation des performances, nous avons préparé un notebook interactif Google Colab. Ce notebook fournit un guide étape par étape pour réaliser ces analyses en utilisant des données réelles de la rivière Magdalena à El Banco en Colombie. Il couvre à la fois la correction de biais et l’évaluation des performances, vous permettant d’interagir avec les données et les méthodes présentées dans ce guide : [Bias_Correction_GEOGloWS_ECMWF_Hydrological_Model_Retrospective_Simulation Colab.ipynb](https://colab.research.google.com/drive/19gr9icMEUwZdT6ae6DPG-IwGeWTS3mKk?usp=sharing).
 
 ---
 

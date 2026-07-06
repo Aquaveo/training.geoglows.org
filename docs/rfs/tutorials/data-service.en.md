@@ -47,6 +47,6 @@ here: [RFS API Documentation](https://geoglows.readthedocs.io/en/latest/api-docu
 querying specific types of data.
 
 This Python notebook provides examples of using the API in Python, as well as utilizing the Python
-package: [Programmatic_Access Colab.ipynb](https://colab.research.google.com/drive/19PiUTU2noCvNGr6r-1i9cv0YMduTxATs?usp=sharing)
+package: [Programmatic_Access Colab.ipynb](https://colab.research.google.com/drive/1iUpZZ8z__7ErtWSy9OcR3wDbL5bzvOOi?usp=sharing)
 
 The API can be used in applications requiring streamflow data and can be integrated directly into Python workflows. 

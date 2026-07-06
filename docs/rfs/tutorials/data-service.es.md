@@ -37,6 +37,6 @@ Para utilizar [el sitio web de la API](https://geoglows.ecmwf.int/documentation)
 
 Una de las formas más fáciles de acceder a la API es a través de Python. Hay un **paquete Python GEOGLOWS** (documentado aquí: [Documentación de la API RFS](https://geoglows.readthedocs.io/en/latest/api-documentation.html)) que contiene comandos para análisis básicos y consultas de tipos específicos de datos.
 
-Este cuaderno de Python proporciona ejemplos de cómo usar la API en Python, así como utilizar el paquete de Python: [Programmatic_Access Colab.ipynb](https://colab.research.google.com/drive/19PiUTU2noCvNGr6r-1i9cv0YMduTxATs?usp=sharing)
+Este cuaderno de Python proporciona ejemplos de cómo usar la API en Python, así como utilizar el paquete de Python: [Programmatic_Access Colab.ipynb](https://colab.research.google.com/drive/1iUpZZ8z__7ErtWSy9OcR3wDbL5bzvOOi?usp=sharing)
 
 La API puede ser utilizada en aplicaciones que requieren datos de flujo de agua y puede integrarse directamente en los flujos de trabajo de Python.

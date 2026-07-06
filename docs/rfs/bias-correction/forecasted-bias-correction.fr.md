@@ -12,8 +12,8 @@ Cette méthode permet d’améliorer la précision des prévisions, en particuli
 
 ---
 
-[Correction_de_Biais_Données_Prédictives.pdf](https://drive.google.com/file/d/1CjsVCMkZjngEZt1k45dd4tgGTJREhi2D/view?usp=sharing)
+[Correction_de_Biais_Données_Prédictives.pdf](https://drive.google.com/file/d/1Fu4KhqhW6lW1eI8U2pcuHJFyCTqw5Qrn/view?usp=sharing)
 
 Ce notebook Colab propose un guide étape par étape pour effectuer la correction de biais sur les valeurs de prévision du RFS. Il montre comment ajuster les valeurs de débit prévisionnel à l’aide des observations historiques, améliorant ainsi la précision des prévisions et alignant les données sur les mesures réelles pour une meilleure analyse hydrologique :
 
-[Correction_de_Biais_GEOGloWS_ECMWF_Modèle_Hydrologique_Prédiction Colab.ipynb](https://colab.research.google.com/drive/1vXJNrCjef3G4KoCc1LlNm5T_mqLu20E_?usp=sharing)
+[Correction_de_Biais_GEOGloWS_ECMWF_Modèle_Hydrologique_Prédiction Colab.ipynb](https://colab.research.google.com/drive/1AWwF60XP_6GKhl1fe9KDhhndT802cHUq?usp=sharing)

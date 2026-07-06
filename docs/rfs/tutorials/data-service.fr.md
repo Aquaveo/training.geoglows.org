@@ -37,6 +37,6 @@ Pour utiliser le [site Web de l'API](https://geoglows.ecmwf.int/documentation), 
 
 Une des façons les plus simples d'accéder à l'API est via Python. Il existe un **package Python GEOGLOWS** (documenté ici : [Documentation de l'API RFS](https://geoglows.readthedocs.io/en/latest/api-documentation.html)) qui contient des commandes pour des analyses de base et pour interroger des types de données spécifiques.
 
-Ce notebook Python fournit des exemples d'utilisation de l'API avec Python, ainsi que l'utilisation du package Python : [Programmatic_Access Colab.ipynb](https://colab.research.google.com/drive/19PiUTU2noCvNGr6r-1i9cv0YMduTxATs?usp=sharing)
+Ce notebook Python fournit des exemples d'utilisation de l'API avec Python, ainsi que l'utilisation du package Python : [Programmatic_Access Colab.ipynb](https://colab.research.google.com/drive/1iUpZZ8z__7ErtWSy9OcR3wDbL5bzvOOi?usp=sharing)
 
 L'API peut être utilisée dans des applications nécessitant des données de débit et peut être intégrée directement dans des workflows Python.

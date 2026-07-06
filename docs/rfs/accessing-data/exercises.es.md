@@ -3,7 +3,7 @@
 Para explorar más a fondo el análisis de periodos de retorno, curvas de duración de flujo y promedios estacionales, te invitamos a seguir nuestra demostración interactiva en el notebook de Google
 Colab proporcionado. Este notebook práctico te guiará a través del proceso, utilizando datos reales del río Tensift en Marruecos. Puedes acceder y ejecutar el notebook directamente en tu navegador:
 
-[Return_Periods-FDC-Average_Flows Colab.ipynb](https://colab.research.google.com/drive/1UngQNuvgQyzaj2fKDhHGWK4oATljaed-?usp=sharing)
+[Return_Periods-FDC-Average_Flows Colab.ipynb](https://colab.research.google.com/drive/1pcB6VEXgT8MMy0MiL9iek0cviDzebxNB?usp=sharing)
 
 ---
 
@@ -13,8 +13,8 @@ Para profundizar en el análisis de datos retrospectivos, periodos de retorno, c
 notebook proporciona una guía paso a paso para realizar estos análisis utilizando datos reales del río San Juan en Rancho La Trinidad, Costa Rica. Cubre tanto los datos retrospectivos como el análisis
 estadístico de flujo, permitiéndote interactuar con los datos y métodos discutidos en estas guías.
 
-- [Retrospective Simulation Data Tutorial](https://colab.research.google.com/drive/1D-IlUFyyg38HWmhaCvcx0Wdh70gkPEhS?usp=sharing)
-- [Long Form Tutorial](https://colab.research.google.com/drive/1P3yNvE1EoQ9U8emCsMkm18CSpKWahvc5?usp=sharing)
+- [Retrospective Simulation Data Tutorial](https://colab.research.google.com/drive/1BRn7cJ8a1KbiLUqou3h7hv7QNW4FTjQI?usp=sharing)
+- [Long Form Tutorial](https://colab.research.google.com/drive/1K9-O53eZqGV0mrznoRt0jHuEPnCR9elr?usp=sharing)
 
 ---
 
@@ -24,5 +24,5 @@ El notebook de Colab proporciona una guía interactiva sobre cómo acceder y vis
 utilizando bibliotecas de Python e interpretar estadísticas clave para una gestión y planificación eficaz de los recursos
 hídricos.
 
-- [Forecast Simulation Data Tutorial](https://colab.research.google.com/drive/1s_xpasbYlvFGak9_2XgxRPzX0sDO-FnH?usp=sharing)
-- [Long Form Tutorial](https://colab.research.google.com/drive/1C2-zkxGC7U280U2CRkSK2TbQD1nr2H1T?usp=drive_link)
+- [Forecast Simulation Data Tutorial](https://colab.research.google.com/drive/1KgcYNE2_GfBfUpjZiTIBIFlzxpRwq-vO?usp=sharing)
+- [Long Form Tutorial](https://colab.research.google.com/drive/1nGDQ6Y4JclHz_kQW4y-rVKZjQF6FSPwb?usp=sharing)

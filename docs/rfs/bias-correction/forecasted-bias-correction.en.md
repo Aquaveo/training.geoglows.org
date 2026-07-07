@@ -16,10 +16,10 @@ simulation. The following images show how the KGE values improved for the foreca
 
 ---
 
-[Bias_Correction_Forecast_Data.pdf](https://drive.google.com/file/d/1CjsVCMkZjngEZt1k45dd4tgGTJREhi2D/view?usp=sharing)
+[Bias_Correction_Forecast_Data.pdf](https://drive.google.com/file/d/1Fu4KhqhW6lW1eI8U2pcuHJFyCTqw5Qrn/view?usp=sharing)
 
 This Colab notebook offers a step-by-step guide for performing bias correction on RFS forecast values. It shows how to adjust forecasted
 streamflow values using historical observations, improving the accuracy of predictions and aligning the data with real-world measurements for better
 hydrological analysis:
 
-[Bias_Correction_GEOGloWS_ECMWF_Hydrological_Model_Forecast Colab.ipynb](https://colab.research.google.com/drive/1vXJNrCjef3G4KoCc1LlNm5T_mqLu20E_?usp=sharing)
+[Bias_Correction_GEOGloWS_ECMWF_Hydrological_Model_Forecast Colab.ipynb](https://colab.research.google.com/drive/1AWwF60XP_6GKhl1fe9KDhhndT802cHUq?usp=sharing)

@@ -4,7 +4,7 @@ To further explore the analysis of return periods, flow duration curves, and sea
 demonstration in the provided Google Colab notebook. This hands-on notebook will guide you through the process, using real data from the Tensift River
 in Morocco. You can access and run the notebook directly in your browser:
 
-[Return_Periods-FDC-Average_Flows Colab.ipynb](https://colab.research.google.com/drive/1UngQNuvgQyzaj2fKDhHGWK4oATljaed-?usp=sharing)
+[Return_Periods-FDC-Average_Flows Colab.ipynb](https://colab.research.google.com/drive/1pcB6VEXgT8MMy0MiL9iek0cviDzebxNB?usp=sharing)
 
 ---
 
@@ -15,8 +15,8 @@ Google Colab notebook. This notebook provides step-by-step guidance for conducti
 Rancho La Trinidad in Costa Rica. It covers both retrospective data and statistical flow analysis, allowing you to engage with the data and methods
 discussed in these guides.
 
-- [Retrospective Simulation Data Tutorial](https://colab.research.google.com/drive/1D-IlUFyyg38HWmhaCvcx0Wdh70gkPEhS?usp=sharing)
-- [Long Form Tutorial](https://colab.research.google.com/drive/1P3yNvE1EoQ9U8emCsMkm18CSpKWahvc5?usp=sharing)
+- [Retrospective Simulation Data Tutorial](https://colab.research.google.com/drive/1BRn7cJ8a1KbiLUqou3h7hv7QNW4FTjQI?usp=sharing)
+- [Long Form Tutorial](https://colab.research.google.com/drive/1K9-O53eZqGV0mrznoRt0jHuEPnCR9elr?usp=sharing)
 
 ---
 
@@ -26,5 +26,5 @@ The Colab notebook provides an interactive guide on accessing and visualizing fo
 streamflow forecasts, plot the data using Python libraries, and interpret key statistics for effective water resource management and
 planning.
 
-- [Forecast Simulation Data Tutorial](https://colab.research.google.com/drive/1s_xpasbYlvFGak9_2XgxRPzX0sDO-FnH?usp=sharing)
-- [Long Form Tutorial](https://colab.research.google.com/drive/1C2-zkxGC7U280U2CRkSK2TbQD1nr2H1T?usp=drive_link)
+- [Forecast Simulation Data Tutorial](https://colab.research.google.com/drive/1KgcYNE2_GfBfUpjZiTIBIFlzxpRwq-vO?usp=sharing)
+- [Long Form Tutorial](https://colab.research.google.com/drive/1nGDQ6Y4JclHz_kQW4y-rVKZjQF6FSPwb?usp=sharing)

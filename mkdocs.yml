@@ -46,6 +46,33 @@ plugins:
             SABER Method: "Método SABER"
             Correcting Forecasts: "Corregir Pronósticos"
             Publications: "Publicaciones" 
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            Home: "Accueil"
+            River Forecast System: "Système de Prévision Fluviale"
+            Part 1 Model Formulation: "Partie 1 : Formulation du Modèle"
+            Model Formulation: "Formulation du Modèle"
+            Part 2 Available Data: "Partie 2 : Données Disponibles"
+            Data Catalog: "Catalogue de Données"
+            Hydrography: "Hydrographie"
+            Retrospective Data: "Données Rétrospectives"
+            Forecast Data: "Données Prévisionnelles"
+            Part 3 Accessing Data: "Partie 3 : Accès aux Données"
+            Finding River Numbers: "Trouver les Numéros de Rivière"
+            Querying Data: "Interrogation des Données"
+            Bulk Downloads: "Téléchargements en Masse"
+            API (Data Service): "API (Service de Données)"
+            Web Maps: "Cartes Web"
+            Part 4 Application Tutorials: "Partie 4 : Tutoriels d'Application"
+            Web App: "Application Web"
+            Notebooks: "Cahiers"
+            Cookbook: "Recueil de Recettes"
+            Part 5 Bias Correction: "Partie 5 : Correction du Biais"
+            SABER Method: "Méthode SABER"
+            Correcting Forecasts: "Correction des Prévisions"
+            Publications: "Publications"
 theme:
   features:
     - content.code.copy

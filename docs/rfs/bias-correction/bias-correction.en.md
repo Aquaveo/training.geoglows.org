@@ -13,14 +13,14 @@ variability, and correlation.
 The following presentation discusses how RFS has been validated and gives details of the methods of the bias-correction
 methods.
 
-[GEOGLOWS - Bias Correction.pdf](https://drive.google.com/file/d/1voFzujDRYzeacfhB5lTUboIUu3fqIvQZ/view?usp=sharing)
+[GEOGLOWS - Bias Correction.pdf](https://drive.google.com/file/d/1-GyWh_lY2AjRTXM7aRknqmJiIEh_BqMd/view?usp=sharing)
 
 ## Interactive Learning - Bias Correction
 
 To dive deeper into the analysis of bias correction and performance evaluation, we have prepared an interactive Google Colab notebook. This notebook
 provides step-by-step guidance for conducting these analyses using real-world data from the Magdalena River at El Banco in Colombia. It covers both
 bias correction and performance evaluation, allowing you to engage with the data and methods discussed in this
-guide: [Bias_Correction_GEOGloWS_ECMWF_Hydrological_Model_Retrospective_Simulation Colab.ipynb](https://colab.research.google.com/drive/1_TGLCuq8l0M30mpOjXQ6ip2ROgOtWwfy?usp=sharing).
+guide: [Bias_Correction_GEOGloWS_ECMWF_Hydrological_Model_Retrospective_Simulation Colab.ipynb](https://colab.research.google.com/drive/19gr9icMEUwZdT6ae6DPG-IwGeWTS3mKk?usp=sharing).
 
 ---
 

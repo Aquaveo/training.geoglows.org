@@ -6,11 +6,11 @@ Después de aplicar la corrección de sesgo, observamos una mejora significativa
 
 La siguiente presentación discute cómo RFS ha sido validado y proporciona detalles de los métodos de corrección de sesgo.
 
-[GEOGLOWS - Corrección de Sesgo.pdf](https://drive.google.com/file/d/1voFzujDRYzeacfhB5lTUboIUu3fqIvQZ/view?usp=sharing)
+[GEOGLOWS - Corrección de Sesgo.pdf](https://drive.google.com/file/d/1-GyWh_lY2AjRTXM7aRknqmJiIEh_BqMd/view?usp=sharing)
 
 ## Aprendizaje Interactivo - Corrección de Sesgo
 
-Para profundizar en el análisis de la corrección de sesgo y la evaluación del rendimiento, hemos preparado un cuaderno interactivo de Google Colab. Este cuaderno proporciona una guía paso a paso para realizar estos análisis utilizando datos reales del río Magdalena en El Banco, Colombia. Cubre tanto la corrección de sesgo como la evaluación del rendimiento, permitiéndote interactuar con los datos y métodos discutidos en esta guía: [Bias_Correction_GEOGloWS_ECMWF_Hydrological_Model_Retrospective_Simulation Colab.ipynb](https://colab.research.google.com/drive/1_TGLCuq8l0M30mpOjXQ6ip2ROgOtWwfy?usp=sharing).
+Para profundizar en el análisis de la corrección de sesgo y la evaluación del rendimiento, hemos preparado un cuaderno interactivo de Google Colab. Este cuaderno proporciona una guía paso a paso para realizar estos análisis utilizando datos reales del río Magdalena en El Banco, Colombia. Cubre tanto la corrección de sesgo como la evaluación del rendimiento, permitiéndote interactuar con los datos y métodos discutidos en esta guía: [Bias_Correction_GEOGloWS_ECMWF_Hydrological_Model_Retrospective_Simulation Colab.ipynb](https://colab.research.google.com/drive/19gr9icMEUwZdT6ae6DPG-IwGeWTS3mKk?usp=sharing).
 
 ---
 

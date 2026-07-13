@@ -14,3 +14,8 @@
     allowfullscreen>
   </iframe>
 </div>
+
+---
+
+!!! info "Sitio nuevo — Versión 3"
+    Este es el nuevo sitio de capacitación de la **Versión 3**. ¿Busca información sobre la **Versión 2**? [Haga clic aquí para visitar el sitio de la Versión 2](v2/index.md).

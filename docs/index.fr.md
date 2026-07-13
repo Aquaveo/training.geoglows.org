@@ -14,3 +14,8 @@
     allowfullscreen>
   </iframe>
 </div>
+
+---
+
+!!! info "Nouveau site — Version 3"
+    Ceci est le nouveau site de formation **Version 3**. Vous cherchez des informations sur la **Version 2** ? [Cliquez ici pour accéder au site Version 2](v2/index.md).

@@ -1,6 +1,6 @@
 !!! danger "Le téléchargement en masse n'est généralement pas nécessaire"
     La plupart des utilisateurs n'ont pas besoin de ce tutoriel. Tous les produits de prévisions et de simulations rétrospectives sont disponibles pour les requêtes, les téléchargements en masse, et via le service de données. Cependant, les instructions pour interroger les données sont les plus rapides et les plus pratiques (et les moins coûteuses pour GEOGLOWS) pour la plupart des usages.
-    Veuillez suivre le tutoriel sur [l'interrogation des données fluviales](../tutorials/query-data.fr.md) avant de continuer cette section.
+    Veuillez suivre le tutoriel sur [l'interrogation des données fluviales](code-and-apis.fr.md) avant de continuer cette section.
 
 ## Références
 La plupart des utilisateurs n'ont pas besoin de télécharger le résultat complet de la simulation pour le monde entier. Vous pouvez souvent vous contenter d'une requête/téléchargement plus large. Si vous continuez, vous devez être familiarisé avec awscli ou un outil équivalent. Une règle pratique utile pour estimer l'espace disque nécessaire est :

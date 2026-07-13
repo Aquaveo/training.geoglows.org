@@ -1,7 +1,7 @@
 !!! danger "The API is not necessary for most users"
     Most users do not need this tutorial. All the forecast and retrospective simulation products are available for queries, bulk downloads,
     and via data service. However, the instructions for querying data are the fastest and most convenient (and cheapest for GEOGLOWS) for most uses.
-    Please follow the tutorial on [querying river data](query-data.en.md) before continuing to this section.
+    Please follow the tutorial on [querying river data](../accessing-data/code-and-apis.en.md) before continuing to this section.
 
 There is programmatic access to RFS streamflow data through a **REST API**, allowing users to easily integrate
 global hydrological data into their applications. With this API, developers and researchers can retrieve historical and forecasted streamflow data in

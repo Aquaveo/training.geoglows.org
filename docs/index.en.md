@@ -17,3 +17,8 @@ This site is focused on providing technical information about how to use the RFS
     allowfullscreen>
   </iframe>
 </div>
+
+---
+
+!!! info "New site — Version 3"
+    This is the new **Version 3** training site. Looking for information on the older **Version 2**? [Click here to visit the Version 2 site](v2/index.md).

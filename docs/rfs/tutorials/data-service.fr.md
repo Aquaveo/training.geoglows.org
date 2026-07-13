@@ -1,6 +1,6 @@
 !!! danger "L'API n'est pas nécessaire pour la plupart des utilisateurs"
     La plupart des utilisateurs n'ont pas besoin de ce tutoriel. Tous les produits de prévision et de simulation rétrospective sont disponibles pour des requêtes, des téléchargements en masse et via le service de données. Cependant, les instructions pour interroger les données sont les plus rapides et les plus pratiques (et les moins coûteuses pour GEOGLOWS) pour la plupart des usages.  
-    Veuillez suivre le tutoriel sur [interroger les données de rivière](query-data.fr.md) avant de continuer cette section.
+    Veuillez suivre le tutoriel sur [interroger les données de rivière](../accessing-data/code-and-apis.fr.md) avant de continuer cette section.
 
 Il existe un accès programmatique aux données de débit de RFS via une **API REST**, permettant aux utilisateurs d'intégrer facilement les données hydrologiques mondiales dans leurs applications. Avec cette API, les développeurs et les chercheurs peuvent récupérer des données de débit historiques et prévisionnelles au format **CSV** ou **JSON**, permettant une analyse et une visualisation personnalisées. L'API donne accès à toutes les données rétrospectives et de prévision. Pour plus d'informations, consultez la [Documentation de l'API RFS](https://geoglows.ecmwf.int/documentation).
 

@@ -1,4 +1,7 @@
 site_name: GEOGLOWS Training
+# Version 2 archive: built and reachable at /v2/ but intentionally kept out of the sidebar.
+not_in_nav: |
+  /v2/**
 markdown_extensions:
   - attr_list
   - admonition
@@ -24,54 +27,80 @@ plugins:
           build: true
           nav_translations:
             Home: "Inicio"
-            River Forecast System: "River Forecast System"
-            Part 1 Model Formulation: "Parte 1: Formulación del Modelo"
+            RFS: "RFS"
+            "What's New?": "Novedades"
             Model Formulation: "Formulación del Modelo"
-            Part 2 Available Data: "Parte 2: Datos Disponibles"
+            Overview: "Resumen"
+            V3 Model Improvements: "Mejoras del Modelo V3"
+            Model Inputs: "Entradas del Modelo"
+            River Routing: "Enrutamiento Fluvial"
+            Flood Mapping: "Mapeo de Inundaciones"
+            Available Data: "Datos Disponibles"
             Data Catalog: "Catálogo de Datos"
             Hydrography: "Hidrografía"
             Retrospective Data: "Datos Retrospectivos"
-            Forecast Data: "Datos Pronosticados"
-            Part 3 Accessing Data: "Parte 3: Acceso a los Datos"
-            Finding River Numbers: "Encontrar Números de Río"
-            Querying Data: "Consultando Datos"
+            15 Day Forecast Data: "Datos de Pronóstico de 15 Días"
+            45 Day Forecast Data: "Datos de Pronóstico de 45 Días"
+            Flood Maps: "Mapas de Inundación"
+            Accessing Data: "Acceso a los Datos"
+            Code and APIs: "Código y APIs"
             Bulk Downloads: "Descargas Masivas"
-            API (Data Service): "API (Servicio de Datos)"
-            Web Maps: "Mapas Web"
-            Part 4 Application Tutorials: "Parte 4: Tutoriales de Aplicación"
-            Web App: "Aplicación Web"
-            Notebooks: "Notebooks"
             Cookbook: "Recetario"
-            Part 5 Bias Correction: "Parte 5: Corrección de Sesgo"
+            Web Apps: "Aplicaciones Web"
+            Flood Map App: "Aplicación de Mapas de Inundación"
+            Tutorials: "Tutoriales"
+            Finding River Numbers: "Encontrar Números de Río"
+            Calculating Streamflow Volume: "Cálculo del Volumen de Caudal"
+            API (Data Service): "API (Servicio de Datos)"
+            Web Maps (GIS Layers): "Mapas Web (Capas SIG)"
+            Bias Correction: "Corrección de Sesgo"
+            Bias Correction Method: "Método de Corrección de Sesgo"
+            Correcting Data: "Corrección de Datos"
             SABER Method: "Método SABER"
-            Correcting Forecasts: "Corregir Pronósticos"
-            Publications: "Publicaciones" 
+            Groundwater: "Aguas Subterráneas"
+            Scientific Background: "Antecedentes Científicos"
+            Aquifer Analyst: "Analizador de Acuíferos"
+            "Groundwater Storage Trends – GRACE": "Tendencias de Almacenamiento de Agua Subterránea – GRACE"
+            Publications: "Publicaciones"
         - locale: fr
           name: Français
           build: true
           nav_translations:
             Home: "Accueil"
-            River Forecast System: "Système de Prévision Fluviale"
-            Part 1 Model Formulation: "Partie 1 : Formulation du Modèle"
+            RFS: "RFS"
+            "What's New?": "Nouveautés"
             Model Formulation: "Formulation du Modèle"
-            Part 2 Available Data: "Partie 2 : Données Disponibles"
+            Overview: "Aperçu"
+            V3 Model Improvements: "Améliorations du Modèle V3"
+            Model Inputs: "Entrées du Modèle"
+            River Routing: "Routage Fluvial"
+            Flood Mapping: "Cartographie des Inondations"
+            Available Data: "Données Disponibles"
             Data Catalog: "Catalogue de Données"
             Hydrography: "Hydrographie"
             Retrospective Data: "Données Rétrospectives"
-            Forecast Data: "Données Prévisionnelles"
-            Part 3 Accessing Data: "Partie 3 : Accès aux Données"
-            Finding River Numbers: "Trouver les Numéros de Rivière"
-            Querying Data: "Interrogation des Données"
+            15 Day Forecast Data: "Données de Prévision à 15 Jours"
+            45 Day Forecast Data: "Données de Prévision à 45 Jours"
+            Flood Maps: "Cartes d'Inondation"
+            Accessing Data: "Accès aux Données"
+            Code and APIs: "Code et APIs"
             Bulk Downloads: "Téléchargements en Masse"
-            API (Data Service): "API (Service de Données)"
-            Web Maps: "Cartes Web"
-            Part 4 Application Tutorials: "Partie 4 : Tutoriels d'Application"
-            Web App: "Application Web"
-            Notebooks: "Cahiers"
             Cookbook: "Recueil de Recettes"
-            Part 5 Bias Correction: "Partie 5 : Correction du Biais"
+            Web Apps: "Applications Web"
+            Flood Map App: "Application de Cartes d'Inondation"
+            Tutorials: "Tutoriels"
+            Finding River Numbers: "Trouver les Numéros de Rivière"
+            Calculating Streamflow Volume: "Calcul du Volume d'Écoulement"
+            API (Data Service): "API (Service de Données)"
+            Web Maps (GIS Layers): "Cartes Web (Couches SIG)"
+            Bias Correction: "Correction du Biais"
+            Bias Correction Method: "Méthode de Correction du Biais"
+            Correcting Data: "Correction des Données"
             SABER Method: "Méthode SABER"
-            Correcting Forecasts: "Correction des Prévisions"
+            Groundwater: "Eaux Souterraines"
+            Scientific Background: "Contexte Scientifique"
+            Aquifer Analyst: "Analyseur d'Aquifères"
+            "Groundwater Storage Trends – GRACE": "Tendances de Stockage des Eaux Souterraines – GRACE"
             Publications: "Publications"
 theme:
   features:
@@ -98,30 +127,46 @@ theme:
         name: Switch to light mode
 nav:
   - Home: index.md
-  - River Forecast System:
-      - Part 1 Model Formulation:
-          - Model Formulation: rfs/model-formulation/model-formulation.md
-      - Part 2 Available Data:
+  - RFS:
+      - What's New?: rfs/whats-new.md
+      - Model Formulation:
+          - Overview: rfs/model-formulation/model-formulation.md
+          - V3 Model Improvements: rfs/model-formulation/v3-improvements.md
+          - Model Inputs: rfs/model-formulation/model-inputs.md
+          - River Routing: rfs/model-formulation/river-routing.md
+          - Flood Mapping: rfs/model-formulation/flood-mapping.md
+      - Available Data:
           - Data Catalog: rfs/datasets/catalog.md
           - Hydrography: rfs/datasets/hydrography.md
           - Retrospective Data: rfs/datasets/retrospective.md
-          - Forecast Data: rfs/datasets/forecast.md
-      - Part 3 Accessing Data:
-          - Web App: rfs/accessing-data/web-app.md
-          - Code Notebooks: rfs/accessing-data/exercises.md
+          - 15 Day Forecast Data: rfs/datasets/forecast.md
+          - 45 Day Forecast Data: rfs/datasets/forecast-45day.md
+          - Flood Maps: rfs/datasets/flood-maps.md
+      - Accessing Data:
+          - Code and APIs: rfs/accessing-data/code-and-apis.md
           - Bulk Downloads: rfs/accessing-data/bulk-download.md
           - Cookbook: rfs/accessing-data/code-snippets.md
-      - Part 4 Tutorials:
+          - Web Apps:
+              - Hydroviewer: rfs/accessing-data/web-apps/hydroviewer.md
+              - HydroSOS: rfs/accessing-data/web-apps/hydrosos.md
+              - FEWS App: rfs/accessing-data/web-apps/fews-app.md
+              - Flood Map App: rfs/accessing-data/web-apps/flood-map-app.md
+      - Tutorials:
           - Finding River Numbers: rfs/tutorials/find-river-numbers.md
-          - Querying Data: rfs/tutorials/query-data.md
+          - Calculating Streamflow Volume: rfs/tutorials/streamflow-volume.md
           - API (Data Service): rfs/tutorials/data-service.md
-          - Web Maps (GIS Layer): rfs/tutorials/web-map.md
-      - Part 5 Bias Correction:
+          - Web Maps (GIS Layers): rfs/tutorials/web-map.md
+      - Bias Correction:
+          - Bias Correction Method: rfs/bias-correction/bias-correction-method.md
+          - Correcting Data: rfs/bias-correction/forecasted-bias-correction.md
           - SABER Method: rfs/bias-correction/bias-correction.md
-          - Correcting Forecasts: rfs/bias-correction/forecasted-bias-correction.md
-      - Publications: rfs/publications.md
+  - Groundwater:
+      - Scientific Background: groundwater/scientific-background.md
+      - Aquifer Analyst: groundwater/aquifer-analyst.md
+      - Groundwater Storage Trends – GRACE: groundwater/storage-trends-grace.md
   - Webinars:
       - "1. GEOGLOWS History and Introducing RFS Version 2": webinars/rfs-v2-webinar-1.md
       - "2. GEOGLOWS Model Formulation": webinars/rfs-v2-webinar-2.md
       - "3. GEOGLOWS Available Data": webinars/rfs-v2-webinar-3.md
       - "4. GEOGLOWS Hydroviewer 101": webinars/rfs-v2-webinar-4.md
+  - Publications: rfs/publications.md

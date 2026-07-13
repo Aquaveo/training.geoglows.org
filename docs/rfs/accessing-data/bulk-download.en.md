@@ -1,7 +1,7 @@
 !!! danger "Bulk downloading is usually not necessary"
     Most users do not need this tutorial. All the forecast and retrospective simulation products are available for queries, bulk downloads,
     and via data service. However, the instructions for querying data are the fastest and most convenient (and cheapest for GEOGLOWS) for most uses.
-    Please follow the tutorial on [querying river data](../tutorials/query-data.en.md) before continuing to this section.
+    Please follow the tutorial on [querying river data](code-and-apis.en.md) before continuing to this section.
 
 ## References
 Most users do not need to download the entire simulation result for the whole world. You can often be satisfied with a larger query/download. If you

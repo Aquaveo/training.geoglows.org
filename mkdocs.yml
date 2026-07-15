@@ -158,8 +158,8 @@ nav:
           - Web Maps (GIS Layers): rfs/tutorials/web-map.md
       - Bias Correction:
           - Bias Correction Method: rfs/bias-correction/bias-correction-method.md
-          - Correcting Data: rfs/bias-correction/forecasted-bias-correction.md
-          - SABER Method: rfs/bias-correction/bias-correction.md
+          - Correcting Data: rfs/bias-correction/correcting-data.md
+          - SABER Method: rfs/bias-correction/saber-method.md
   - Groundwater:
       - Scientific Background: groundwater/scientific-background.md
       - Aquifer Analyst: groundwater/aquifer-analyst.md

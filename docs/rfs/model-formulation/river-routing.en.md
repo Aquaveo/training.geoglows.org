@@ -1,7 +1,10 @@
 # River Routing
-- discuss how the meteorology data gets put into buckets and converted to volumes to use
-- Link to river route code
+
+Going to wait to update this until some things from version 3 have been finished.
+
+- Link to river route code - https://river-route.code.hales.app/, https://github.com/rileyhales/river-route
 - Muskingum routing
 - timesteps it happens at
 - how are lakes and reservoirs accounted for
 - non-linear routing?
+- Is overland flow still happening?

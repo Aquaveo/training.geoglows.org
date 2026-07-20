@@ -1,9 +1,7 @@
 # Model Inputs
-- maybe add some more information about the resolution of these datasets as well as how often they are produced.
-- do we want to talk about the whole bucket model thing?
-## Inputs
 
-The River Forecast System (RFS) depends on three key inputs, as illustrated in the graphic:
+
+The River Forecast System (RFS) depends on three key inputs:
 
 1. **Hydrography from TDX-Hydro**  
    The river network used by RFS is based on hydrography derived from TDX-Hydro digital elevation data. To prepare this for RFS, the stream network undergoes several modifications and post-processing
@@ -24,3 +22,5 @@ The following table summarizes the core input datasets used by RFS:
 | ERA5                            | [DOI](https://doi.org/10.24381/cds.adbb2d47)                                       | Reanalysis Land Surface Model   | ECMWF    | [Copernicus License](https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf) - Free for commercial and non-commercial use with attribution |
 | TDX-Hydro                       | [Link](https://earth-info.nga.mil/)                                                | River and Catchment Hydrography | NGA      | [TDX-Hydro License](https://earth-info.nga.mil/php/download.php?file=tdx-hydro-license) - Publicly available, provided "as is" without warranty                                  |
 | Integrated Forecast System 48R1 | [Link](https://confluence.ecmwf.int/display/FCST/Implementation+of+IFS+Cycle+48r1) | Forecast Land Surface Model     | ECMWF    | Requires Paid License                                                                                                                                 
+
+In addition to the inputs to the actual model, observed data is used in the calibration process. 

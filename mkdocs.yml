@@ -119,7 +119,19 @@ nav:
       - Part 5 Bias Correction:
           - SABER Method: rfs/bias-correction/bias-correction.md
           - Correcting Forecasts: rfs/bias-correction/forecasted-bias-correction.md
-      - Publications: rfs/publications.md
+  - GRACE Groundwater:
+      - Part 1 Understanding GRACE:
+          - Overview: grace/understanding/overview.md
+          - Computational Algorithm: grace/understanding/computational-algorithm.md
+      - Part 2 Available Data:
+          - Available Data: grace/datasets/available-data.md
+      - Part 3 Accessing Data:
+          - Using the Web App: grace/accessing-data/web-app.md
+          - API (Data Service): grace/accessing-data/api.md
+          - Colab Notebook: grace/accessing-data/notebook.md
+      - Part 4 Applications:
+          - Water Table Fluctuation Method: grace/applications/water-table-fluctuation.md
+  - Publications: publications.md
   - Webinars:
       - "1. GEOGLOWS History and Introducing RFS Version 2": webinars/rfs-v2-webinar-1.md
       - "2. GEOGLOWS Model Formulation": webinars/rfs-v2-webinar-2.md

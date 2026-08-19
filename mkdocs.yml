@@ -45,7 +45,15 @@ plugins:
             Part 5 Bias Correction: "Parte 5: Corrección de Sesgo"
             SABER Method: "Método SABER"
             Correcting Forecasts: "Corregir Pronósticos"
-            Publications: "Publicaciones" 
+            Groundwater Data: "Datos de Agua Subterránea"
+            Part 1 GRACE-Derived Storage Anomalies: "Parte 1: Anomalías de Almacenamiento Derivadas de GRACE"
+            Overview: "Descripción General"
+            Computational Algorithm: "Algoritmo de Cálculo"
+            Available Data: "Datos Disponibles"
+            Using the Web App: "Uso de la Aplicación Web"
+            Part 4 Example Uses: "Parte 4: Ejemplos de Uso"
+            Water Table Fluctuation Method: "Método de Fluctuación del Nivel Freático"
+            Publications: "Publicaciones"
         - locale: fr
           name: Français
           build: true
@@ -72,6 +80,14 @@ plugins:
             Part 5 Bias Correction: "Partie 5 : Correction du Biais"
             SABER Method: "Méthode SABER"
             Correcting Forecasts: "Correction des Prévisions"
+            Groundwater Data: "Données sur les Eaux Souterraines"
+            Part 1 GRACE-Derived Storage Anomalies: "Partie 1 : Anomalies de Stockage Dérivées de GRACE"
+            Overview: "Vue d'Ensemble"
+            Computational Algorithm: "Algorithme de Calcul"
+            Available Data: "Données Disponibles"
+            Using the Web App: "Utilisation de l'Application Web"
+            Part 4 Example Uses: "Partie 4 : Exemples d'Utilisation"
+            Water Table Fluctuation Method: "Méthode de Fluctuation de la Nappe Phréatique"
             Publications: "Publications"
 theme:
   features:
@@ -119,17 +135,15 @@ nav:
       - Part 5 Bias Correction:
           - SABER Method: rfs/bias-correction/bias-correction.md
           - Correcting Forecasts: rfs/bias-correction/forecasted-bias-correction.md
-  - GRACE Groundwater:
-      - Part 1 Understanding GRACE:
+  - Groundwater Data:
+      - Part 1 GRACE-Derived Storage Anomalies:
           - Overview: grace/understanding/overview.md
           - Computational Algorithm: grace/understanding/computational-algorithm.md
       - Part 2 Available Data:
           - Available Data: grace/datasets/available-data.md
       - Part 3 Accessing Data:
           - Using the Web App: grace/accessing-data/web-app.md
-          - API (Data Service): grace/accessing-data/api.md
-          - Colab Notebook: grace/accessing-data/notebook.md
-      - Part 4 Applications:
+      - Part 4 Example Uses:
           - Water Table Fluctuation Method: grace/applications/water-table-fluctuation.md
   - Publications: publications.md
   - Webinars:

@@ -1,39 +1,29 @@
-## Overview
+## Storage Components
 
-GGST serves several storage components. For simplicity, the options are given a variable name — for instance, "Total Water Storage (GRACE)" has a
-variable name of `grace`, and similarly "Soil Moisture Storage (GLDAS)" is shortened to `sm`. These abbreviations are the values passed to the
-`storage_type` parameter when using the [API](../accessing-data/api.md).
+Four storage components are available to view and download. Every one is an anomaly — a departure from a long-term average — rather than an
+absolute quantity.
 
-## Storage Options
+| Name | Abbreviation | Source |
+|------|--------------|--------|
+| Total Water Storage Anomaly | TWSa | GRACE |
+| Snow Water Equivalent Anomaly | SWEa | GLDAS |
+| Soil Moisture Anomaly | SMa | GLDAS |
+| Groundwater Storage Anomaly | GWSa | Calculated |
 
-| Name | Abbreviation | Source | Source Resolution |
-|------|--------------|--------|-------------------|
-| Total Water Storage | `grace` | GRACE | 0.5 degrees |
-| Surface Water Storage | `sw` | GLDAS | 1.0 degrees |
-| Soil Moisture Storage | `sm` | GLDAS | 1.0 degrees |
-| Groundwater Storage | `gw` | Calculated | 1.0 degrees |
-| Snow Water Equivalent | `swe` | GLDAS | 1.0 degrees |
-| Terrestrial Water Storage | `tws` | GLDAS | 1.0 degrees |
-| Canopy Storage | `canopy` | GLDAS | 1.0 degrees |
-
-Groundwater Storage is calculated rather than observed. To learn more about how this is calculated, see
+They are listed here in the order they appear in the mass balance: the GRACE total, the surface components subtracted from it, and the groundwater
+result. Groundwater Storage Anomaly is calculated rather than observed — see
 [Deriving Groundwater](../understanding/computational-algorithm.md#deriving-groundwater).
 
-## Components Used in the Groundwater Calculation
+## Grid Resolution
 
-Three of the GLDAS components are used to derive groundwater storage:
+The components are computed on water balance cells, which are 1.0 degree by default. A half degree option is available in the application
+settings. Switching between them reloads the map and the current analysis from the other dataset, and the finer cells take longer to prepare.
 
-- The GLDAS canopy storage dataset (CAN)
-- The GLDAS snow water equivalent (SWE)
-- The GLDAS soil moisture (SM)
+GRACE is originally provided on 3 degree cells known as mascons, before being downscaled to the 1.0 and 0.5 degree anomaly cells. Both the mascon
+footprints and the anomaly cell boundaries can be shown on the map from the application settings.
 
-These are subtracted from the GRACE total water storage anomaly. See
+For how the raw data is gridded and downscaled, see
 [Deriving Groundwater](../understanding/computational-algorithm.md#deriving-groundwater).
-
-## Selecting a Component in the App
-
-The storage component options presented in the application include Total Water Storage (GRACE), Surface Water Storage (GLDAS), Soil Moisture Storage
-(GLDAS), and Groundwater Storage (Calculated).
 
 ## Units and Baseline
 

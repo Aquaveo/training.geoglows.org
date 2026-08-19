@@ -1,10 +1,29 @@
 ## Overview
 
-The GGST Web Application relies on the Earth Observation data collected by NASA through satellites which map the gravitational field of the Earth.
-Changes in gravity are driven by changes in water storage, offering a rare opportunity to monitor groundwater level through satellites coupled with
-estimated surface water.
+GRACE-derived storage anomalies rely on the Earth Observation data collected by NASA through satellites which map the gravitational field of the
+Earth. Changes in gravity are driven by changes in water storage, offering a rare opportunity to monitor groundwater level through satellites
+coupled with estimated surface water.
 
-For background on the GRACE mission and how the measurement is made, see [Overview](overview.md).
+This page describes how the groundwater component is separated from that measurement using a mass balance approach, and how the result is subset to
+a region of interest. For background on the data and the application that delivers it, see [Overview](overview.md).
+
+## How the Measurement Works
+
+The GRACE mission was launched in March 2002. It consists of a pair of satellites that are 400 km above the Earth and are separated by 200 km. As the
+satellites pass over different regions of the Earth, the front and rear satellites are pulled slightly forward and backward in response to subtle
+changes in the Earth's gravitational field caused by changes in surficial mass. This causes the distance between the satellites to vary, and the
+changes are recorded by a k-band microwave whose accuracy is within 10 microns.
+
+![Artist rendering of the twin satellites, with the ranging link between them](../../static/images/grace-satellites.jpg)
+
+*Image credit: NASA/JPL-Caltech*
+
+The GRACE satellites follow a varying path that covers the entire Earth about once per month. This data is then processed by NASA to produce a map of
+the Earth's gravitational field. Each month a new map is generated and the differences are calculated to produce a gravity anomaly map. The changes
+in mass are assumed to be primarily caused by the change in water storage.
+
+Each month NASA generates a gridded map of total water storage anomaly at 3-degree resolution. This map is then down-scaled using a mass conservation
+algorithm to 0.5-degree resolution and made available for download in netCDF multidimensional raster format.
 
 ## Deriving Groundwater
 
@@ -23,8 +42,11 @@ Each GLDAS component is converted to an anomaly format by subtracting the mean c
 GLDAS models to produce a component anomaly dataset: CANa, SWEa, and SMa. The standard deviation from the three GLDAS models is used to help estimate
 uncertainty.
 
-GLDAS data is normally acquired in a gridded format with a 1-degree latitude by 1-degree longitude resolution, which is converted to a 0.5-degree
-resolution. This conversion is performed by an area-weighted average of the four GRACE grid cells coincident with each GLDAS grid cell.
+GLDAS data is normally acquired in a gridded format with a 1-degree latitude by 1-degree longitude resolution, while GRACE TWSa is served at
+0.5 degrees. Reconciling the two grids is performed by an area-weighted average of the four GRACE grid cells coincident with each GLDAS grid cell.
+
+The components can be computed on either 1-degree cells, which is the default, or on half degree cells, selected in the application settings. See
+[Grid Resolution](../datasets/available-data.md#grid-resolution).
 
 The groundwater anomaly is the difference between the TWSa and the sum of the surface water component anomalies:
 
@@ -36,9 +58,14 @@ The result of this computation is the groundwater storage anomaly, a tested and 
 
 ## Grid Subsetting
 
-For regional subsetting, the user provides a shapefile that defines the boundary of the region of interest. GGST selects the cells that have cell
-centers within the defined boundary and calculates the average storage anomaly for each of the components — TWSa, SWEa, CANa, and SMa — resulting in
-a time series from 2002 to the present for each component on a monthly time step.
+For regional subsetting, the user provides a boundary that defines the region of interest. The application selects the cells
+that have cell centers within the defined boundary and calculates the average storage anomaly for each of the components — TWSa, SWEa, CANa, and
+SMa — resulting in a time series from 2002 to the present for each component on a monthly time step.
+
+The figure below shows the Chad Basin in Niger subsetted and displayed with the region boundary. Only the cells whose centers fall inside the
+boundary are included in the average.
+
+![Chad Basin in Niger, subsetted and displayed with the region boundary](../../static/images/grace-subsetted-region.png)
 
 For water storage, the average of each component is multiplied by the area of the region, resulting in volume anomalies.
 
@@ -48,17 +75,17 @@ It is recommended that a region be at least 3x3 degrees in size. Smaller regions
 is because the native GRACE grid cells are 3x3 degrees in resolution before downscaling to 0.5x0.5 degrees. The GLDAS grid cells are 1x1 degree, and
 therefore the resulting Groundwater Storage Anomaly (GWSa) cells are 1x1 degree resolution.
 
-The GGST algorithm searches the global GRACE and GLDAS grid cells to find cells where the centroid of the cells falls within the region shapefile. If
+The algorithm searches the global GRACE and GLDAS grid cells to find cells where the centroid of the cells falls within the region boundary. If
 the region is so small that no grid cells are found, an error message is displayed.
 
 ### Analysis at a Single Point
 
-In addition to analyzing groundwater storage change averaged over a region, the GGST app can be used to perform an analysis at a single point
+In addition to analyzing groundwater storage change averaged over a region, the application can be used to perform an analysis at a single point
 location. This can be used to quickly generate a time series at a point of interest, or in cases where a region of interest is too small to be
 processed as a region.
 
-For a point analysis, GGST finds the GRACE and GLDAS grid cells containing the selected point and returns the selected dataset time series for the
-cell. If you are viewing a region, the selected point must be within the bounds of the region.
+For a point analysis, the application finds the GRACE and GLDAS grid cells containing the selected point and returns the selected dataset time
+series for the cell. If you are viewing a region, the selected point must be within the bounds of the region.
 
 ## Uncertainty Estimates
 
@@ -83,21 +110,21 @@ these data serve as an estimate of general trends in groundwater storage.
 
 ## Storage Depletion Curve
 
-The GGST offers an option of viewing time series data in the format of a storage depletion curve, which is the time-integral of the storage anomaly.
+The application offers an option of viewing time series data in the format of a storage depletion curve, which is the time-integral of the
+storage anomaly.
 
 The storage depletion curve presents cumulative changes in water component storage relative to levels when the GRACE missions began distributing data
 in April 2002. The storage depletion curve is used in groundwater management since it offers a simple visualization of how much storage aquifers have
 gained or lost since a given point in time.
 
-To compute the depletion, GGST sums the GWSa over time to determine changes in groundwater storage volume over time for the region. These data show
-if a region is depleting storage in the region, or if groundwater is recharging in the region, thereby providing valuable information relative to
-groundwater sustainability.
+To compute the depletion, the application sums the GWSa over time to determine changes in groundwater storage volume over time for the region.
+These data show if a region is depleting storage in the region, or if groundwater is recharging in the region, thereby providing valuable
+information relative to groundwater sustainability.
 
 An illustration of Northern Africa and the Arabian Peninsula from 2002 to 2021 shows that the groundwater in that region has been depleting since
 early 2009 and onward.
 
-<!-- TODO: reproduce or re-create the depletion curve figure from the GGST documentation
-     (images-algorithm/depletioncurve.png). -->
+![Storage depletion curve for the Arab region, 2002 to 2021](../../static/images/grace-depletion-curve.png)
 
 ## Limitations
 
@@ -107,8 +134,8 @@ and unknown uncertainties. Raw GRACE data is at an even coarser resolution (3-de
 higher resolutions TWSa data.
 
 Even with these limitations, GRACE data provide valuable insights into aquifers such as regions that are depleting and recharging, hence allowing
-managers to sustainably use their groundwater resources. The best use of the GGST is to draw general trends in aquifers rather than selecting a
+managers to sustainably use their groundwater resources. The best use of the application is to draw general trends in aquifers rather than selecting a
 placement of a well.
 
-It is also recommended that, whenever possible, these data be validated with local data. GGST displays the uncertainties in the data calculations as
-error bands on time series, providing context on regions and different time periods.
+It is also recommended that, whenever possible, these data be validated with local data. The application displays the uncertainties in the data
+calculations as error bands on time series, providing context on regions and different time periods.

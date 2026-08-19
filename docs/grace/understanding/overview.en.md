@@ -1,42 +1,43 @@
 ## Overview
 
-The GRACE Groundwater Subsetting Tool (GGST) uses data from the NASA Gravity Recovery And Climate Experiment (GRACE) mission to analyze long-term
-groundwater storage change for selected regions. GGST can be used to identify and characterize conditions in data-poor areas or identify trends in
-other regions where trends can be obscured by noise from well data.
-
-GGST integrates data from both the GRACE and GRACE-FO missions, and uses NASA GLDAS surface water data to derive groundwater storage changes. It
-allows users to upload a geojson or json files to define regions representing countries, basins, or aquifers, aggregates the water volume changes in those regions, and displays
-the results as time series plots for the whole region or at selected points. It also displays an animated map of the storage change anomalies.
+The NASA Gravity Recovery And Climate Experiment (GRACE) mission provides data that can be used to analyze long-term groundwater storage change for
+selected regions. The data can identify and characterize conditions in data-poor areas or identify trends in other regions where trends can be
+obscured by noise from well data.
 
 GRACE provides monthly estimates of water storage anomalies in equivalent water height and has provided monthly gravity field solutions since April
 2002. Estimates of mass variability and associated observational errors are available on a global 300 km grid.
 
-While several tools have been developed for processing and visualizing GRACE data, GGST is designed specifically to support groundwater resource
-management by regional stakeholders and decision-makers. This is accomplished by carefully processing the raw GRACE data to remove anomalies and
-improve resolution: separating the groundwater component from the other water storage components using GLDAS, subsetting the data to specific regions
-of interest, and presenting the results in a simple, intuitive interface.
+![Global map of gravity anomalies measured by GRACE](../../static/images/grace-globe.png){ width="388" }
+
+## GRACE-Derived Storage Anomalies
+
+GRACE measures the total water stored in a column of the Earth — snow, surface water, soil moisture, canopy water, and groundwater combined. A mass
+balance approach is used to separate the groundwater component from that total and report it for an area of interest.
+
+By integrating data from both the GRACE and GRACE-FO missions, and using NASA GLDAS surface water data, groundwater storage changes can be observed.
+The global nature of this data allows users to define regions representing countries, basins, or aquifers, aggregate the water volume changes in
+those regions, and get results as time series plots for the whole region or at selected points.
 
 The algorithm used to process the GRACE and GLDAS data to produce groundwater anomalies on both a global and regional scale is described in detail on
 the [Computational Algorithm](computational-algorithm.md) page.
 
-## How the Measurement Works
+## The Web Application
 
-The GRACE mission was launched in March 2002. It consists of a pair of satellites that are 400 km above the Earth and are separated by 200 km. As the
-satellites pass over different regions of the Earth, the front and rear satellites are pulled slightly forward and backward in response to subtle
-changes in the Earth's gravitational field caused by changes in surficial mass. This causes the distance between the satellites to vary, and the
-changes are recorded by a k-band microwave whose accuracy is within 10 microns.
+GRACE Regional Analyst is a web application that delivers GRACE-derived storage anomalies. While several tools have been developed for processing and
+visualizing GRACE data, it is designed specifically to support groundwater resource management by regional stakeholders and decision-makers. This is
+accomplished by carefully processing the raw GRACE data to remove anomalies and improve resolution: separating the groundwater component from the
+other water storage components using GLDAS, subsetting the data to specific regions of interest, and presenting the results in a simple, intuitive
+interface.
 
-The GRACE satellites follow a varying path that covers the entire Earth about once per month. This data is then processed by NASA to produce a map of
-the Earth's gravitational field. Each month a new map is generated and the differences are calculated to produce a gravity anomaly map. The changes
-in mass are assumed to be primarily caused by the change in water storage.
+It allows users to upload JSON files or draw a region on the map for their areas of interest. It also displays an animated map of the storage change
+anomalies.
 
-Each month NASA generates a gridded map of total water storage anomaly at 3-degree resolution. This map is then down-scaled using a mass conservation
-algorithm to 0.5-degree resolution and made available for download in netCDF multidimensional raster format.
+![GRACE Regional Analyst showing global groundwater storage anomaly](../../static/images/web-app-overview.png)
 
-## Accessing GGST
 
-GGST can be accessed through the [web application](../accessing-data/web-app.md), or by using the [API](../accessing-data/api.md) and the associated
-[Google Colaboratory Notebook](../accessing-data/notebook.md) that makes the API intuitive to use.
+The application is available at
+[apps.geoglows.org/grace-anomalies](https://apps.geoglows.org/grace-anomalies){:target="_blank"}. See
+[Using the Web App](../accessing-data/web-app.md).
 
 ## Further Reading
 
@@ -48,8 +49,3 @@ GRACE has proved an effective tool for characterizing groundwater storage change
 - [Thomas, Reager, Famiglietti, & Rodell, 2014](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL059323){:target="_blank"}
 
 <!-- TODO: decide whether these citations belong here or on the top-level Publications page. -->
-
-## Acknowledgements
-
-These tools were originally developed via funding from the National Aeronautics and Space Administration: 80NSSC20K0155; United States Agency for
-International Development: Cooperative Agreement with SERVIR West Africa Hub.

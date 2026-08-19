@@ -46,4 +46,4 @@ were launched and became operational in 2018.
 For the years with large gaps, it can be difficult to identify seasonal trends and apply the Water Table Fluctuation method. One way to resolve this
 is to use a statistical algorithm to detect seasonal patterns in the data and impute synthetic data in the gaps; that method and the tool for
 applying it are described under
-[Filling Gaps in the Data](../applications/water-table-fluctuation.md#filling-gaps-in-the-data).
+[Filling Gaps in the Data](../applications/water-table-fluctuation.md#gaps-in-the-grace-data).

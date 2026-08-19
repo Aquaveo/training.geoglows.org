@@ -53,37 +53,16 @@ the most accurate. An example of applying the WTF method to estimate recharge in
 
 ## Downloading the Water Level Time Series
 
-To apply the WTF method to estimate recharge on GRACE data, one must first download the groundwater storage anomaly time series. Load the region and
-select the Groundwater Storage Anomaly component, then download the time series as either a comma separated values (CSV) file or an Excel (XLS) file.
-
-<!-- TODO: The app interface has changed. Write the download steps and capture a new screenshot
-     against the current version of the app. The old screenshot (images-wtf/ggst_download.png) shows
-     the previous interface and was deliberately not carried over. -->
-
-Each storage component downloads as its own file with four columns: the date, the value, and the upper and lower bounds of the error range. The
-storage units are liquid water equivalent in cm.
-
-| Column | Contents |
-|--------|----------|
-| `Date` | Month of the value, in a standard date format |
-| `GWS` | Groundwater storage anomaly, in cm |
-| `GWS_upper` | Upper bound of the error range |
-| `GWS_lower` | Lower bound of the error range |
-
-The value columns are named for the component you downloaded — a snow water equivalent file has `SWE`, `SWE_upper`, and `SWE_lower`.
-
-Dates are already in a standard date format and need no conversion.
+To apply the WTF method to estimate recharge on GRACE data, one must first download the groundwater storage anomaly time series. Load the region,
+select the Groundwater Storage Anomaly component, and download the CSV. The steps and the file format are described under
+[Viewing and Downloading Results](../accessing-data/web-app.md#viewing-and-downloading-results).
 
 ## Gaps in the GRACE Data
 
 If you carefully inspect the groundwater storage time series CSV file, you will see that there are several missing months or gaps in the data. For
 example, the month of June is missing in 2003:
 
-![A missing month in the time series](../../static/images/wtf-missing-month.png)
-
-<!-- TODO: this figure is from the older export, so its column headers (ts, error_min, error_max)
-     differ from the current ones (GWS, GWS_upper, GWS_lower). The gap it illustrates is still
-     correct. Replace with a current screenshot when convenient. -->
+![A missing month in the downloaded time series](../../static/images/grace-excel-download.png)
 
 This is because there were periods when the GRACE satellites did not produce usable data. The largest gap is a 12-month period in 2017-2018 between
 the end of the original GRACE mission in 2017 and when the subsequent GRACE-FO satellites were launched and became operational in 2018. Here is a

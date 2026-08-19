@@ -63,11 +63,17 @@ plot shows the selected component as a line with its uncertainty as a shaded ban
 In the upper right corner of the graph is a button to download the CSV. The data that is currently displayed on the graph will be the data that is
 downloaded. Change the displayed layer on the right-hand side of the map to change which variable is being graphed.
 
-Each storage component downloads as its own file with four columns: the date, the value, and the upper and lower bounds of the error range. Dates
-are in a standard date format, and the storage units are liquid water equivalent in cm.
+Each storage component downloads as its own file with four columns. The storage units are liquid water equivalent in cm.
 
-The columns are described under
-[Downloading the Water Level Time Series](../applications/water-table-fluctuation.md#downloading-the-water-level-time-series).
+| Column | Contents |
+|--------|----------|
+| `Date` | Month of the value, in a standard date format |
+| `GWS` | Groundwater storage anomaly, in cm |
+| `GWS_upper` | Upper bound of the error range |
+| `GWS_lower` | Lower bound of the error range |
+
+The value columns are named for the component you downloaded — a snow water equivalent file has `SWE`, `SWE_upper`, and `SWE_lower`. Dates are
+already in a standard date format and need no conversion.
 
 ## Settings
 

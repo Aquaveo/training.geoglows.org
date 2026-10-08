@@ -2,7 +2,7 @@
 
 Esri alberga un **ArcGIS Living Atlas of the World**. Incluye mapas, aplicaciones y capas de datos que pueden ayudar a los investigadores a acceder fácilmente a los datos. Hospedan una capa de GEOGLOWS como parte de este programa. Esto permite que los datos de caudal de RFS se carguen en ArcGIS o QGIS sin necesidad de descargar todo el conjunto de datos. La imagen a continuación muestra la capa de caudal cargada en QGIS.
 
-Puedes añadirlo a mapas web como una capa web sin necesidad de descargar los datos adicionales ni la red de drenaje. Si estás intentando descargar el *hydrofabric*, encontrarás instrucciones sobre cómo hacerlo en la sección de [datos disponibles](../datasets/catalog.md).
+Puedes añadirlo a mapas web como una capa web sin necesidad de descargar los datos adicionales ni la red de drenaje. Si estás intentando descargar el *hydrofabric*, encontrarás instrucciones sobre cómo hacerlo en la sección de [datos disponibles](../advanced/working-with-data/catalog.md).
 
 ![captura de pantalla](../../static/images/imagen.png)
 

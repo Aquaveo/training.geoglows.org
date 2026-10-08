@@ -2,7 +2,7 @@
 
 Les résultats RFS sont mieux explorés à l'aide d'une carte web disponible gratuitement via le **ArcGIS Living Atlas of the World**. Vous n'avez pas besoin d'une licence ArcGIS pour utiliser cette couche. Vous pouvez visualiser et interagir avec la couche dans ArcGIS, QGIS, des applications JavaScript et la plupart des méthodes que vous utilisez habituellement pour consommer des données SIG.
 
-Vous pouvez l'ajouter aux cartes web en tant que couche web sans avoir besoin de télécharger les données supplémentaires ou le réseau de cours d'eau. Si vous essayez de télécharger l'hydrofabric, des instructions à ce sujet se trouvent dans la section [données disponibles](../datasets/catalog.md).
+Vous pouvez l'ajouter aux cartes web en tant que couche web sans avoir besoin de télécharger les données supplémentaires ou le réseau de cours d'eau. Si vous essayez de télécharger l'hydrofabric, des instructions à ce sujet se trouvent dans la section [données disponibles](../advanced/working-with-data/catalog.md).
 
 ![screenshot](../../static/images/imagen.png)
 

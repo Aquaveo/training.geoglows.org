@@ -25,7 +25,7 @@ Le moyen le plus simple de trouver l'ID d'une rivière est d'utiliser l'[applica
 
 ## Utilisation des données hydrographiques
 
-Les données hydrographiques sont disponibles dans le [catalogue de données](../datasets/catalog.md){:target="_blank"}. Vous pouvez télécharger et visualiser soit les cours d'eau, soit les bassins versants dans un logiciel SIG comme ArcGIS ou QGIS. Vous pouvez cliquer sur les entités ou utiliser des outils d'analyse spatiale pour sélectionner plusieurs rivières. Les numéros ID de ces rivières sont stockés dans l'attribut LINKNO.
+Les données hydrographiques sont disponibles dans le [catalogue de données](../advanced/working-with-data/catalog.md){:target="_blank"}. Vous pouvez télécharger et visualiser soit les cours d'eau, soit les bassins versants dans un logiciel SIG comme ArcGIS ou QGIS. Vous pouvez cliquer sur les entités ou utiliser des outils d'analyse spatiale pour sélectionner plusieurs rivières. Les numéros ID de ces rivières sont stockés dans l'attribut LINKNO.
 
 ## Trouver des rivières avec latitude/longitude
 

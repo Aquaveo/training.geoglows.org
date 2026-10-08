@@ -25,7 +25,7 @@ La forma más fácil de encontrar el ID de un río es utilizar la [aplicación w
 
 ## Uso de los datos de hidrografía
 
-Los datos de hidrografía están disponibles en el [catálogo de datos](../datasets/catalog.es.md){:target="_blank"}. Puedes descargar y ver los ríos o cuencas en un software GIS como ArcGIS o QGIS. Puedes hacer clic en las características o usar herramientas de análisis espacial para seleccionar muchos ríos. Los números de ID de esos ríos están almacenados en el atributo LINKNO.
+Los datos de hidrografía están disponibles en el [catálogo de datos](../advanced/working-with-data/catalog.es.md){:target="_blank"}. Puedes descargar y ver los ríos o cuencas en un software GIS como ArcGIS o QGIS. Puedes hacer clic en las características o usar herramientas de análisis espacial para seleccionar muchos ríos. Los números de ID de esos ríos están almacenados en el atributo LINKNO.
 
 ## Encontrar ríos con Lat/Lon
 

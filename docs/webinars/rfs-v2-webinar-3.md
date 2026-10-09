@@ -15,6 +15,10 @@ webinar:
 **Presenter:** {{ webinar.presenter }}  
 **Date:** {{ webinar.date }}
 
+!!! note "Recorded for RFS version 2"
+    These webinars were made about version 2 of the River Forecast System. Many of the same concepts still apply in version 3,
+    but some details may have small updates. See [What's New?](../rfs/whats-new.md) for the main changes in version 3.
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: {{ webinar.video_width_max }}px; margin: 0 auto;">
   <iframe
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"

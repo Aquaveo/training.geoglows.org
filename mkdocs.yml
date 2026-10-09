@@ -2,6 +2,9 @@ site_name: GEOGLOWS Training
 # Version 2 archive: built and reachable at /v2/ but intentionally kept out of the sidebar.
 not_in_nav: |
   /v2/**
+# Pages not currently used on the site: kept in the repo but not built or published.
+exclude_docs: |
+  /unused/
 markdown_extensions:
   - attr_list
   - admonition
@@ -53,6 +56,8 @@ plugins:
             Using the Datastore: "Uso del Almacén de Datos"
             Overview of Available Applications: "Resumen de las Aplicaciones Disponibles"
             Flood Map App: "Aplicación de Mapas de Inundación"
+            HydroSOS App: "Aplicación HydroSOS"
+            FEWS App: "Aplicación FEWS"
             Finding River Numbers: "Encontrar Números de Río"
             Querying Data: "Consultando Datos"
             Calculating Streamflow Volume: "Cálculo del Volumen de Caudal"
@@ -62,9 +67,13 @@ plugins:
             Local Bias Correction: "Corrección de Sesgo Local"
             SABER Method: "Método SABER"
             Groundwater: "Aguas Subterráneas"
-            Scientific Background: "Antecedentes Científicos"
-            Aquifer Analyst: "Analizador de Acuíferos"
-            "Groundwater Storage Trends – GRACE": "Tendencias de Almacenamiento de Agua Subterránea – GRACE"
+            Part 1 GRACE-Derived Storage Anomalies: "Parte 1: Anomalías de Almacenamiento Derivadas de GRACE"
+            Computational Algorithm: "Algoritmo de Cálculo"
+            Part 2 Available Data: "Parte 2: Datos Disponibles"
+            Part 3 Accessing Data: "Parte 3: Acceso a los Datos"
+            Using the Web App: "Uso de la Aplicación Web"
+            Part 4 Example Uses: "Parte 4: Ejemplos de Uso"
+            Water Table Fluctuation Method: "Método de Fluctuación del Nivel Freático"
             Publications: "Publicaciones"
         - locale: fr
           name: Français
@@ -97,6 +106,8 @@ plugins:
             Using the Datastore: "Utilisation du Magasin de Données"
             Overview of Available Applications: "Aperçu des Applications Disponibles"
             Flood Map App: "Application de Cartes d'Inondation"
+            HydroSOS App: "Application HydroSOS"
+            FEWS App: "Application FEWS"
             Finding River Numbers: "Trouver les Numéros de Rivière"
             Querying Data: "Interroger les Données"
             Calculating Streamflow Volume: "Calcul du Volume d'Écoulement"
@@ -106,9 +117,13 @@ plugins:
             Local Bias Correction: "Correction Locale du Biais"
             SABER Method: "Méthode SABER"
             Groundwater: "Eaux Souterraines"
-            Scientific Background: "Contexte Scientifique"
-            Aquifer Analyst: "Analyseur d'Aquifères"
-            "Groundwater Storage Trends – GRACE": "Tendances de Stockage des Eaux Souterraines – GRACE"
+            Part 1 GRACE-Derived Storage Anomalies: "Partie 1 : Anomalies de Stockage Dérivées de GRACE"
+            Computational Algorithm: "Algorithme de Calcul"
+            Part 2 Available Data: "Partie 2 : Données Disponibles"
+            Part 3 Accessing Data: "Partie 3 : Accès aux Données"
+            Using the Web App: "Utilisation de l'Application Web"
+            Part 4 Example Uses: "Partie 4 : Exemples d'Utilisation"
+            Water Table Fluctuation Method: "Méthode de Fluctuation de la Nappe Phréatique"
             Publications: "Publications"
 theme:
   features:
@@ -145,13 +160,12 @@ nav:
       - Part 2 Globally Available Web Applications:
           - Overview of Available Applications: rfs/web-apps/overview.md
           - Hydroviewer: rfs/web-apps/hydroviewer.md
-          - FEWS: rfs/web-apps/fews-app.md
-          - HydroSOS: rfs/web-apps/hydrosos.md
+          - FEWS App: rfs/web-apps/fews-app.md
+          - HydroSOS App: rfs/web-apps/hydrosos.md
           - Flood Map App: rfs/web-apps/flood-map-app.md
       - Part 3 Tutorials:
           - Finding River Numbers: rfs/tutorials/find-river-numbers.md
           - Querying Data: rfs/tutorials/query-data.md
-          - API (Data Service): rfs/tutorials/data-service.md
           - Web Maps (GIS Layers): rfs/tutorials/web-map.md
           - Calculating Streamflow Volume: rfs/tutorials/streamflow-volume.md
       - Part 4 Advanced Concepts:
@@ -173,9 +187,15 @@ nav:
               - Bias Correction Method: rfs/advanced/bias-correction/bias-correction-method.md
               - Local Bias Correction: rfs/advanced/bias-correction/correcting-data.md
   - Groundwater:
-      - Scientific Background: groundwater/scientific-background.md
-      - Aquifer Analyst: groundwater/aquifer-analyst.md
-      - Groundwater Storage Trends – GRACE: groundwater/storage-trends-grace.md
+      - Part 1 GRACE-Derived Storage Anomalies:
+          - Overview: groundwater/storage-anomalies/overview.md
+          - Computational Algorithm: groundwater/storage-anomalies/computational-algorithm.md
+      - Part 2 Available Data:
+          - Available Data: groundwater/available-data/available-data.md
+      - Part 3 Accessing Data:
+          - Using the Web App: groundwater/accessing-data/web-app.md
+      - Part 4 Example Uses:
+          - Water Table Fluctuation Method: groundwater/example-uses/water-table-fluctuation.md
   - Webinars:
       - "1. GEOGLOWS History and Introducing RFS Version 2": webinars/rfs-v2-webinar-1.md
       - "2. GEOGLOWS Model Formulation": webinars/rfs-v2-webinar-2.md

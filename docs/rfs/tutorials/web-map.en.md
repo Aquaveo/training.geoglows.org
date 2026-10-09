@@ -3,7 +3,7 @@
 RFS results are best explored using a web map available for free through the **ArcGIS Living Atlas of the World**. You do not need to have an ArcGIS 
 license to use this layer. You can visualize and interact with the layer in ArcGIS, QGIS, JavaScript apps, and most ways you typically consume GIS data.
 
-You can add it to web maps as a web layer without needing to download the additional data or stream network. If you are trying to download the hydrofabric, there are instructions about that in the [available data](../advanced/working-with-data/catalog.md) section.
+You can add it to web maps as a web layer without needing to download the additional data or stream network. If you are trying to download the hydrofabric or other data, you can find it in the [RFS datastore](https://apps.geoglows.org/previews/rfs-data-store/datasets/v3).
 
 ![screenshot](../../static/images/imagen.png)
 

@@ -21,7 +21,7 @@ Les numéros ID RFS comportent 9 chiffres. Bien que les grands nombres soient so
 
 ## Utilisation de l'application Web
 
-Le moyen le plus simple de trouver l'ID d'une rivière est d'utiliser l'[application web RFS](https://hydroviewer.geoglows.org){:target="_blank"}. Cliquez sur un cours d'eau sur la carte. Pour vous assurer que vous cliquez sur le cours d'eau exact voulu, la carte effectuera un zoom sur un niveau de détail plus élevé si vous êtes trop éloigné. Après avoir cliqué sur un cours d'eau, la carte identifiera le segment de rivière sélectionné et l'ID sera présenté dans la fenêtre pop-up avec les graphiques et autres informations.
+Le moyen le plus simple de trouver l'ID d'une rivière est d'utiliser l'[application web RFS](https://apps.geoglows.org/rfs){:target="_blank"}. Cliquez sur un cours d'eau sur la carte. Pour vous assurer que vous cliquez sur le cours d'eau exact voulu, la carte effectuera un zoom sur un niveau de détail plus élevé si vous êtes trop éloigné. Après avoir cliqué sur un cours d'eau, la carte identifiera le segment de rivière sélectionné et l'ID sera présenté dans la fenêtre pop-up avec les graphiques et autres informations.
 
 ## Utilisation des données hydrographiques
 

@@ -21,7 +21,7 @@ Los números de ID de RFS son de 9 dígitos. Aunque los números grandes a menud
 
 ## Uso de la aplicación web
 
-La forma más fácil de encontrar el ID de un río es utilizar la [aplicación web RFS](https://hydroviewer.geoglows.org/es/){:target="_blank"}. Haz clic en un río en el mapa. Para asegurarte de hacer clic en el río exacto que deseas, el mapa hará un zoom a un nivel de detalle mayor si estás demasiado alejado. Después de hacer clic en un río, el mapa identificará el segmento de río en el que hiciste clic y el ID se presentará en la ventana emergente con gráficos y otra información.
+La forma más fácil de encontrar el ID de un río es utilizar la [aplicación web RFS](https://apps.geoglows.org/rfs){:target="_blank"}. Haz clic en un río en el mapa. Para asegurarte de hacer clic en el río exacto que deseas, el mapa hará un zoom a un nivel de detalle mayor si estás demasiado alejado. Después de hacer clic en un río, el mapa identificará el segmento de río en el que hiciste clic y el ID se presentará en la ventana emergente con gráficos y otra información.
 
 ## Uso de los datos de hidrografía
 

@@ -1,6 +1,6 @@
 ## Télécharger les données de prévision RFS pour ma rivière
 
-Si vous n'avez besoin de télécharger des données que pour quelques rivières, ou si vous ne souhaitez pas écrire du code, utilisez l'application web ! Notre application vous permet de parcourir graphiquement une carte des rivières, de visualiser et télécharger des données de prévision ou rétrospectives, de comparer les prévisions avec les dernières images satellites et de trouver des liens vers plus d'informations. Visitez [hydroviewer.geoglows.org](https://hydroviewer.geoglows.org){:target="_blank"} pour commencer.
+Si vous n'avez besoin de télécharger des données que pour quelques rivières, ou si vous ne souhaitez pas écrire du code, utilisez l'application web ! Notre application vous permet de parcourir graphiquement une carte des rivières, de visualiser et télécharger des données de prévision ou rétrospectives, de comparer les prévisions avec les dernières images satellites et de trouver des liens vers plus d'informations. Visitez [apps.geoglows.org/rfs](https://apps.geoglows.org/rfs){:target="_blank"} pour commencer.
 
 ## Obtenir une liste d'ID dans mon bassin versant
 

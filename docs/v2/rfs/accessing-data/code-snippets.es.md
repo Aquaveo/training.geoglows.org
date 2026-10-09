@@ -1,6 +1,6 @@
 ## Descargar datos de pronóstico de RFS para mi río
 
-Si solo necesitas descargar datos para algunos ríos o no deseas escribir código, ¡usa la aplicación web! Nuestras aplicaciones te permiten explorar gráficamente un mapa de ríos, ver y descargar datos de pronóstico o retrospectivos, comparar pronósticos con la última imagen satelital y encontrar enlaces a más información. Visita [hydroviewer.geoglows.org](https://hydroviewer.geoglows.org/es/){:target="_blank"} para comenzar.
+Si solo necesitas descargar datos para algunos ríos o no deseas escribir código, ¡usa la aplicación web! Nuestras aplicaciones te permiten explorar gráficamente un mapa de ríos, ver y descargar datos de pronóstico o retrospectivos, comparar pronósticos con la última imagen satelital y encontrar enlaces a más información. Visita [apps.geoglows.org/rfs](https://apps.geoglows.org/rfs){:target="_blank"} para comenzar.
 
 ## Obtener una lista de IDs en mi cuenca hidrográfica
 

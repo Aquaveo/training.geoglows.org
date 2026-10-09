@@ -1,7 +1,7 @@
 # Utilisation du RFS Hydroviewer
 
 ## Aperçu
-Le [RFS Hydroviewer](https://hydroviewer.geoglows.org/) est un outil web pour visualiser et accéder aux prévisions de débit et aux données historiques des rivières dans le monde entier. Il permet aux utilisateurs de :
+Le [RFS Hydroviewer](https://apps.geoglows.org/rfs) est un outil web pour visualiser et accéder aux prévisions de débit et aux données historiques des rivières dans le monde entier. Il permet aux utilisateurs de :
 
 - Explorer les conditions de débit en temps réel  
 - Analyser les tendances des prévisions  

@@ -1,7 +1,7 @@
 # Uso del RFS Hydroviewer
 
 ## Resumen
-El [RFS Hydroviewer](https://hydroviewer.geoglows.org/) es una herramienta web para visualizar y acceder a pronósticos de caudal y datos históricos a nivel mundial. Permite a los usuarios:
+El [RFS Hydroviewer](https://apps.geoglows.org/rfs) es una herramienta web para visualizar y acceder a pronósticos de caudal y datos históricos a nivel mundial. Permite a los usuarios:
 
 - Explorar las condiciones de caudal en tiempo real  
 - Analizar tendencias de pronóstico  

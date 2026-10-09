@@ -1,20 +1,20 @@
 !!! danger "The API is not necessary for most users"
     Most users do not need this tutorial. All the forecast and retrospective simulation products are available for queries, bulk downloads,
     and via data service. However, the instructions for querying data are the fastest and most convenient (and cheapest for GEOGLOWS) for most uses.
-    Please follow the tutorial on [querying river data](../advanced/code/code-and-apis.en.md) before continuing to this section.
+    Please follow the tutorial on [querying river data](../rfs/advanced/code/code-and-apis.en.md) before continuing to this section.
 
 There is programmatic access to RFS streamflow data through a **REST API**, allowing users to easily integrate
 global hydrological data into their applications. With this API, developers and researchers can retrieve historical and forecasted streamflow data in
 **CSV** or **JSON** format, enabling custom analysis and visualization. The API provides access to all retrospective and forecast data. For more
 information, visit the [RFS API Documentation](https://geoglows.ecmwf.int/documentation).
 
-![image](../../static/images/api.png)
+![image](../static/images/api.png)
 ---
 
 ## Using the API
 
 In order to use the API, most functions require you to know your river ID number. You can find more information about finding your river number
-here: [Finding River Numbers Tutorial](find-river-numbers.en.md). You can download the GIS data by VPU through the data
+here: [Finding River Numbers Tutorial](../rfs/tutorials/find-river-numbers.en.md). You can download the GIS data by VPU through the data
 catalog or select a stream on the web application and get a river number that way.
 
 ### Using the API Website
@@ -23,7 +23,7 @@ To use the [API website](https://geoglows.ecmwf.int/documentation), follow these
 
 **Step 1:** Click the blue **“Get”** button next to the command you are interested in. This opens a window where you can enter your parameters.
 
-![API Window Pop-up](../../static/images/api-window-pop-up.png)
+![API Window Pop-up](../static/images/api-window-pop-up.png)
 
 **Step 2:** Before entering any numbers, click **“Try it out”** to enable input fields. This allows you to enter numbers and select response formats.
 
@@ -33,12 +33,12 @@ To use the [API website](https://geoglows.ecmwf.int/documentation), follow these
 - Choose either `csv` or `json` from the dropdown menu under `format`. The default selection is `csv`.
 - For **forecast data queries**, enter a date in `YYYYMMDD` format. If left blank, it will return the most recent forecast.
 
-![Execute Button](../../static/images/execute-button.png)
+![Execute Button](../static/images/execute-button.png)
 
 **Step 4:** Click the **blue “Execute”** button at the bottom of the screen. The system will process your request and load for a few seconds. Once
 finished, you will receive a response code along with an option to download the file.
 
-![API Response](../../static/images/response-api.png)
+![API Response](../static/images/response-api.png)
 
 ### Accessing the API Using Python
 

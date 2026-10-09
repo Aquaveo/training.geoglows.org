@@ -1,1 +1,17 @@
 # Nouveautés
+
+Ce site de formation porte sur la version 3 du RFS (River Forecast System, ou Système de Prévision Fluviale). De nombreux changements majeurs ont été apportés entre cette version du modèle et la version précédente. Cette page présente quelques détails sur les améliorations et les modifications apportées au modèle. Si vous cherchez simplement des informations sur le modèle, vous pouvez passer cette page.
+
+1. **Données hydrographiques**
+    1. **Nombre de cours d'eau** - Le RFSv2 comptait environ 6,8 millions de cours d'eau, tandis que le RFSv3 en compte environ 4,9 millions. Ces réductions proviennent principalement de la suppression des cours d'eau situés dans les grands déserts : des cours d'eau ont été supprimés dans le désert du Sahara, le désert de Gobi et les déserts du centre de l'Australie. Les segments de cours d'eau situés à l'intérieur des lacs ou dans de petits bassins côtiers (ou dans l'océan) ont également été supprimés. Certains petits cours d'eau ont aussi été fusionnés. Les identifiants de rivière sont tous restés les mêmes dans le modèle. Si votre identifiant de rivière n'est plus disponible et qu'il ne se trouve pas dans une zone supprimée, vous pouvez le faire correspondre au nouveau cours d'eau du RFSv3. La correspondance entre les anciens et les nouveaux identifiants de rivière est disponible dans le fichier [tdxhydro_to_v3_id_map.parquet](https://v3.s3.riverforecastsystem.com/hydrography/global/tdxhydro_to_v3_id_map.parquet) (environ 87 Mo).
+    2. **Régions** - Les données hydrographiques ne sont plus organisées en 125 VPU. Elles sont désormais organisées en 47 régions numérotées d'après leurs bassins HydroSHEDS de niveau 2.
+    3. **Lacs** - Un nouvel ensemble de lacs figure dans le jeu de données hydrographiques. Il est différent des lacs qui étaient disponibles dans le RFSv2.
+2. **Formats de stockage des données** - Les fichiers zarr utilisent désormais la version 3 de zarr au lieu de la version 2. Davantage de métadonnées ont été ajoutées aux fichiers et le stockage a été encore optimisé.
+3. **Modifications des processus de routage** - Le processus qui achemine l'eau à travers les rivières a été mis à jour pour reposer entièrement sur un package Python appelé riverroute, développé par le Dr Riley Hales. Le processus a été mis à jour pour s'exécuter plus rapidement et quelques corrections mineures ont été apportées à certaines entrées du modèle.
+4. **Nouveaux buckets AWS** - Un nouveau bucket AWS contient toutes les données de la version 3 du modèle. Il se trouve ici : [https://v3.s3.riverforecastsystem.com](https://v3.s3.riverforecastsystem.com).
+5. **Nouvelles applications web**
+    1. HydroSOS
+    2. FEWS
+6. **Produits de cartographie des inondations**
+7. **Magasin de données** - Un nouveau magasin de données est disponible pour télécharger les produits du RFSv3 : [https://apps.geoglows.org/previews/rfs-data-store/](https://apps.geoglows.org/previews/rfs-data-store/). Ce site fournit des métadonnées et des informations sur les données disponibles, et permet aux utilisateurs de parcourir et de télécharger les produits de données qui les intéressent. Consultez [Le Magasin de Données](what-is-it/using-datastore.md) pour savoir comment l'utiliser.
+8. **Modifications de ce site** - Ce site a été mis à jour et réorganisé. Certaines des informations les plus avancées ont été déplacées dans une section avancée. Des informations sur les eaux souterraines ont également été ajoutées.

@@ -1,19 +1,18 @@
-# Correction de Biais des Prévisions
+# Correction du Biais sur une Rivière d'Intérêt
 
-Le RFS applique une correction de biais à ses données de prévision en supposant que les prévisions partagent les mêmes biais que la simulation rétrospective. Ce processus consiste à **mapper les valeurs de débit prévisionnel** sur une probabilité de non-dépassement en utilisant la courbe de durée de débit de la simulation historique, puis à remplacer les valeurs prévisionnelles par les valeurs correspondantes de la courbe de durée de débit observée.
+Vous pouvez effectuer une correction du biais sur n'importe quelle rivière du RFS, à condition de connaître son LINKNO et de disposer de données observées correspondant à cette rivière. Le moyen le plus simple d'effectuer une correction du biais est d'utiliser la fonction du [package Python] (https://geoglows.readthedocs.io/en/latest/api-documentation/bias.html). Il existe une fonction pour corriger les données historiques et une autre pour corriger les données de prévision.
 
-![forecasts](../../../static/images/forecast-bias-correction.png)
+## Correction du Biais - Exemple de Prévision
 
-Cette méthode permet d’améliorer la précision des prévisions, en particulier pour les horizons de prévision les plus courts, en alignant les données plus étroitement avec les observations historiques. Cependant, les améliorations sont limitées par l’hypothèse que les biais des données prévisionnelles sont identiques à ceux de la simulation rétrospective. Les images suivantes montrent comment les valeurs de **KGE** se sont améliorées pour le modèle prévisionnel après l’application des techniques de correction de biais.
+Ce notebook Colab propose un guide étape par étape pour effectuer une correction du biais sur les valeurs de prévision du RFS. Il montre comment ajuster les valeurs de débit
+prévues à l'aide des observations historiques, ce qui améliore la précision des prévisions et rapproche les données des mesures réelles pour une meilleure
+analyse hydrologique :
 
-![kge](../../../static/images/global_kge1.png)
+[Bias_Correction_GEOGloWS_ECMWF_Hydrological_Model_Forecast Colab.ipynb](https://colab.research.google.com/drive/1AWwF60XP_6GKhl1fe9KDhhndT802cHUq?usp=sharing)
 
-![kge](../../../static/images/global_kge2.png)
+## Correction du Biais - Exemple Rétrospectif
 
----
-
-[Correction_de_Biais_Données_Prédictives.pdf](https://drive.google.com/file/d/1Fu4KhqhW6lW1eI8U2pcuHJFyCTqw5Qrn/view?usp=sharing)
-
-Ce notebook Colab propose un guide étape par étape pour effectuer la correction de biais sur les valeurs de prévision du RFS. Il montre comment ajuster les valeurs de débit prévisionnel à l’aide des observations historiques, améliorant ainsi la précision des prévisions et alignant les données sur les mesures réelles pour une meilleure analyse hydrologique :
-
-[Correction_de_Biais_GEOGloWS_ECMWF_Modèle_Hydrologique_Prédiction Colab.ipynb](https://colab.research.google.com/drive/1AWwF60XP_6GKhl1fe9KDhhndT802cHUq?usp=sharing)
+Pour approfondir l'analyse de la correction du biais et de l'évaluation des performances, nous avons préparé un notebook Google Colab interactif. Ce notebook
+fournit des instructions étape par étape pour réaliser ces analyses à l'aide de données réelles de la rivière Magdalena à El Banco, en Colombie. Il couvre à la fois
+la correction du biais et l'évaluation des performances, ce qui vous permet de vous exercer avec les données et les méthodes présentées dans ce
+guide : [Bias_Correction_GEOGloWS_ECMWF_Hydrological_Model_Retrospective_Simulation Colab.ipynb](https://colab.research.google.com/drive/19gr9icMEUwZdT6ae6DPG-IwGeWTS3mKk?usp=sharing).

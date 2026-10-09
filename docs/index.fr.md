@@ -1,7 +1,10 @@
-# Bienvenue au Centre de Formation du Modèle GEOGLOWS !
 ![image](static/images/NewGEOGLOWSLOGO.png)
+# Bienvenue au Centre de Formation du Modèle GEOGLOWS !
+
+Ce site a pour objectif de fournir des informations techniques sur l'utilisation du modèle RFS. Vous y trouverez à la fois des instructions écrites dans la section « Système de Prévision Fluviale » et des webinaires disponibles dans la section « Webinars ». Si vous souhaitez en savoir plus sur GEOGLOWS en tant qu'organisation, veuillez consulter notre [site web GEOGLOWS](https://www.geoglows.org/).
 
 ## Regardez cette vidéo pour en savoir plus sur GEOGLOWS !
+
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 0 auto;">
   <iframe
@@ -18,4 +21,4 @@
 ---
 
 !!! info "Nouveau site — Version 3"
-    Ceci est le nouveau site de formation **Version 3**. Vous cherchez des informations sur la **Version 2** ? [Cliquez ici pour accéder au site Version 2](v2/index.md).
+    Ceci est le nouveau site de formation **Version 3**. Vous cherchez des informations sur l'ancienne **Version 2** ? [Cliquez ici pour accéder au site Version 2](v2/index.md).

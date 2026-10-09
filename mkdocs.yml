@@ -47,19 +47,17 @@ plugins:
             Available Data: "Datos Disponibles"
             Data Catalog: "Catálogo de Datos"
             Hydrography: "Hidrografía"
-            Working with Data: "Trabajando con Datos"
-            Accessing Data with Code: "Acceso a los Datos con Código"
+            Advanced Data Access: "Acceso Avanzado a los Datos"
             Code and APIs: "Código y APIs"
             Cookbook: "Recetario"
             Bulk Downloads: "Descargas Masivas"
             Flood Maps: "Mapas de Inundación"
-            Using the Datastore: "Uso del Almacén de Datos"
+            The Datastore: "El Almacén de Datos"
             Overview of Available Applications: "Resumen de las Aplicaciones Disponibles"
             Flood Map App: "Aplicación de Mapas de Inundación"
             HydroSOS App: "Aplicación HydroSOS"
             FEWS App: "Aplicación FEWS"
             Finding River Numbers: "Encontrar Números de Río"
-            Querying Data: "Consultando Datos"
             Calculating Streamflow Volume: "Cálculo del Volumen de Caudal"
             API (Data Service): "API (Servicio de Datos)"
             Web Maps (GIS Layers): "Mapas Web (Capas SIG)"
@@ -97,19 +95,17 @@ plugins:
             Available Data: "Données Disponibles"
             Data Catalog: "Catalogue de Données"
             Hydrography: "Hydrographie"
-            Working with Data: "Travailler avec les Données"
-            Accessing Data with Code: "Accès aux Données par Code"
+            Advanced Data Access: "Accès Avancé aux Données"
             Code and APIs: "Code et APIs"
             Cookbook: "Recueil de Recettes"
             Bulk Downloads: "Téléchargements en Masse"
             Flood Maps: "Cartes d'Inondation"
-            Using the Datastore: "Utilisation du Magasin de Données"
+            The Datastore: "Le Magasin de Données"
             Overview of Available Applications: "Aperçu des Applications Disponibles"
             Flood Map App: "Application de Cartes d'Inondation"
             HydroSOS App: "Application HydroSOS"
             FEWS App: "Application FEWS"
             Finding River Numbers: "Trouver les Numéros de Rivière"
-            Querying Data: "Interroger les Données"
             Calculating Streamflow Volume: "Calcul du Volume d'Écoulement"
             API (Data Service): "API (Service de Données)"
             Web Maps (GIS Layers): "Cartes Web (Couches SIG)"
@@ -156,7 +152,7 @@ nav:
           - Model Overview: rfs/what-is-it/model-overview.md
           - Available Data: rfs/what-is-it/available-data.md
           - Flood Maps: rfs/what-is-it/flood-maps.md
-          - Using the Datastore: rfs/what-is-it/using-datastore.md
+          - The Datastore: rfs/what-is-it/using-datastore.md
       - Part 2 Globally Available Web Applications:
           - Overview of Available Applications: rfs/web-apps/overview.md
           - Hydroviewer: rfs/web-apps/hydroviewer.md
@@ -165,23 +161,21 @@ nav:
           - Flood Map App: rfs/web-apps/flood-map-app.md
       - Part 3 Tutorials:
           - Finding River Numbers: rfs/tutorials/find-river-numbers.md
-          - Querying Data: rfs/tutorials/query-data.md
           - Web Maps (GIS Layers): rfs/tutorials/web-map.md
           - Calculating Streamflow Volume: rfs/tutorials/streamflow-volume.md
       - Part 4 Advanced Concepts:
-          - Working with Data:
-              - Data Catalog: rfs/advanced/working-with-data/catalog.md
-              - Hydrography: rfs/advanced/working-with-data/hydrography.md
-          - Accessing Data with Code:
-              - Code and APIs: rfs/advanced/code/code-and-apis.md
-              - Cookbook: rfs/advanced/code/code-snippets.md
-              - Bulk Downloads: rfs/advanced/code/bulk-download.md
           - Model Formulation:
               - Overview: rfs/advanced/model-formulation/model-formulation.md
               - V3 Model Improvements: rfs/advanced/model-formulation/v3-improvements.md
               - Model Inputs: rfs/advanced/model-formulation/model-inputs.md
               - River Routing: rfs/advanced/model-formulation/river-routing.md
               - Flood Mapping: rfs/advanced/model-formulation/flood-mapping.md
+          - Hydrography: rfs/advanced/hydrography.md
+          - Advanced Data Access:
+              - Data Catalog: rfs/advanced/data-access/catalog.md
+              - Code and APIs: rfs/advanced/data-access/code-and-apis.md
+              - Cookbook: rfs/advanced/data-access/code-snippets.md
+              - Bulk Downloads: rfs/advanced/data-access/bulk-download.md
           - Bias Correction:
               - SABER Method: rfs/advanced/bias-correction/saber-method.md
               - Bias Correction Method: rfs/advanced/bias-correction/bias-correction-method.md

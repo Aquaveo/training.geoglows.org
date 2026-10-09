@@ -41,14 +41,14 @@ Il existe deux approches générales pour déterminer l'amplitude de la remonté
 Avec la méthode la plus conservatrice, la remontée est mesurée du creux jusqu'au pic suivant, comme suit :
 
 ```
-R_méthode_1 = ΔGWSa / Δt = (Sp - SB) / Δt = RS
+R_method_1 = ΔGWSa / Δt = (Sp - SB) / Δt = RS
 ```
 
 Une autre méthode consiste à supposer que la baisse des eaux souterraines due au pompage et à la décharge se poursuit au même rythme pendant la saison
 humide, et que la remontée doit donc être calculée à partir d'une extrapolation linéaire de la droite de décroissance, comme suit :
 
 ```
-R_méthode_2 = ΔGWSa / Δt = (Sp - SL) / Δt = RS + RD
+R_method_2 = ΔGWSa / Δt = (Sp - SL) / Δt = RS + RD
 ```
 
 Les taux de recharge issus de ces deux équations peuvent être considérés comme une estimation basse et une estimation haute, bien que, d'après

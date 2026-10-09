@@ -61,20 +61,20 @@ downloaded as an entire region.
 The V3 streams have the following attributes, many of which come from the TauDEM delineation process. For more explanation of these attributes, please
 check [TauDEM Documentation](https://hydrology.usu.edu/taudem/taudem5/help53/StreamReachAndWatershed.html){:target="_blank"}.
 
-| Attribute       | Source    | Description                                                                 |
-|-----------------|-----------|-----------------------------------------------------------------------------|
-| riverId         | TDX-Hydro | A 9 digit globally unique ID number for that river.                         |
-| nextRiverId     | TDX-Hydro | The ID (riverId) of the river immediately downstream of that river.         |
-| outletRiverId   | RFS V3    | The ID of the final outlet of this stream's watershed.                      |
-| riverIndex      | RFS V3    | The order that streams occur from headwater to outlet.                      |
-| upstreamCount   | RFS V3    | The number of rivers immediately upstream of that river.                    |
-| strahlerOrder   | TDX-Hydro | The Strahler stream order.                                                  |
-| shreveOrder     | RFS V3    | The Shreve stream order.                                                    |
-| USContArea      | TDX-Hydro | The total drainage area upstream of the most upstream point.                |
-| DSContArea      | TDX-Hydro | The total drainage area upstream of the most downstream point.              |
-| areaM2          | RFS V3    | The area of the river's catchment in square meters.                         |
-| Length          | RFS V3    | The length of the river.                                                    |
-| TDXHydroRegion  | RFS V3    | The original TDX regional group number of which this stream is part.        |
-| musk_k          | RFS V3    | The initial Muskingum k parameter calculated for river routing.             |
-| musk_x          | RFS V3    | The initial Muskingum x parameter calculated for river routing.             |
-| velocity_factor | RFS V3    | A factor used to calculate the flow velocity for river routing.             |
+| Attribute       | Source    | Description                                                                                                         |
+|-----------------|-----------|---------------------------------------------------------------------------------------------------------------------|
+| riverId         | TDX-Hydro | A 9 digit globally unique ID number for that river (the TDX-Hydro LINKNO).                                          |
+| nextRiverId     | TDX-Hydro | The ID (riverId) of the river immediately downstream of that river, or -1 at an outlet.                             |
+| outletRiverId   | RFS V3    | The ID of the final outlet river that this stream's watershed drains to.                                            |
+| riverIndex      | RFS V3    | The river's position in topological order (headwater to outlet). The retrospective and forecast files use the same order. |
+| upstreamCount   | RFS V3    | The total number of rivers upstream of that river. All of them are found at riverIndex − upstreamCount through riverIndex. |
+| strahlerOrder   | TDX-Hydro | The Strahler stream order.                                                                                          |
+| shreveOrder     | RFS V3    | The Shreve stream magnitude.                                                                                        |
+| USContArea      | TDX-Hydro | The total drainage area upstream of the most upstream point, in square meters.                                      |
+| DSContArea      | TDX-Hydro | The total drainage area upstream of the most downstream point, in square meters.                                    |
+| areaM2          | RFS V3    | The area of the river's own catchment, in square meters.                                                            |
+| Length          | RFS V3    | The length of the river, in meters.                                                                                 |
+| TDXHydroRegion  | RFS V3    | The HydroBASINS level 2 region that the river belongs to.                                                           |
+| musk_k          | RFS V3    | The Muskingum k parameter used for river routing.                                                                   |
+| musk_x          | RFS V3    | The Muskingum x parameter used for river routing.                                                                   |
+| velocity_factor | RFS V3    | The velocity scaling factor used to calculate musk_k.                                                               |

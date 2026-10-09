@@ -41,14 +41,14 @@ Existen dos enfoques generales para determinar la magnitud del ascenso asociado 
 Con el método más conservador, el ascenso se mide desde el valle hasta el siguiente pico, de la siguiente manera:
 
 ```
-R_método_1 = ΔGWSa / Δt = (Sp - SB) / Δt = RS
+R_method_1 = ΔGWSa / Δt = (Sp - SB) / Δt = RS
 ```
 
 Otro método consiste en suponer que el descenso del agua subterránea provocado por el bombeo y la descarga continúa al mismo ritmo durante la
 temporada húmeda y que, por lo tanto, el ascenso debe calcularse a partir de una extrapolación lineal de la línea de descenso, de la siguiente manera:
 
 ```
-R_método_2 = ΔGWSa / Δt = (Sp - SL) / Δt = RS + RD
+R_method_2 = ΔGWSa / Δt = (Sp - SL) / Δt = RS + RD
 ```
 
 Las tasas de recarga obtenidas con estas dos ecuaciones pueden considerarse una estimación baja y una alta, aunque según la experiencia de los autores

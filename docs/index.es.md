@@ -1,7 +1,10 @@
-# ¡Bienvenido al Centro de Capacitación del Modelo GEOGLOWS!
 ![image](static/images/NewGEOGLOWSLOGO.png)
+# ¡Bienvenido al Centro de Capacitación del Modelo GEOGLOWS!
 
-## Mira este video para aprender sobre GEOGLOWS!
+Este sitio se enfoca en proporcionar información técnica sobre cómo usar el modelo RFS. Encontrará instrucciones escritas en la sección "Sistema de Pronóstico de Ríos" y también webinarios disponibles en la sección "Webinars". Si desea obtener más información sobre GEOGLOWS como organización, visite nuestro [sitio web de GEOGLOWS](https://www.geoglows.org/).
+
+## ¡Mire este video para aprender sobre GEOGLOWS!
+
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 0 auto;">
   <iframe
@@ -18,4 +21,4 @@
 ---
 
 !!! info "Sitio nuevo — Versión 3"
-    Este es el nuevo sitio de capacitación de la **Versión 3**. ¿Busca información sobre la **Versión 2**? [Haga clic aquí para visitar el sitio de la Versión 2](v2/index.md).
+    Este es el nuevo sitio de capacitación de la **Versión 3**. ¿Busca información sobre la **Versión 2**, la versión anterior? [Haga clic aquí para visitar el sitio de la Versión 2](v2/index.md).

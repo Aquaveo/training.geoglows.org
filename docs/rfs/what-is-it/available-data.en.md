@@ -1,6 +1,6 @@
 # Available Data
 
-RFS produces streamflow values in around 4.9 million streams. Each stream segment has its own values that can be downloaded and used. The data are available through the [datastore](using-datastore.md) or through several different [web applications](../web-apps/overview.md). There are also advanced options to view the data through code; look at our [advanced section](../advanced/code/code-and-apis.md).
+RFS produces streamflow values in around 4.9 million streams. Each stream segment has its own values that can be downloaded and used. The data are available through the [datastore](using-datastore.md) or through several different [web applications](../web-apps/overview.md). There are also advanced options to view the data through code; look at our [advanced section](../advanced/data-access/code-and-apis.md).
 
 There are 3 main sets of data.
 

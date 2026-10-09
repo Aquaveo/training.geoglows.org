@@ -13,5 +13,5 @@ This training site focuses on version 3 of RFS (River Forecast System). Many maj
     1. HydroSOS
     2. FEWS
 6. **Flood mapping products**
-7. **Datastore** - A new datastore is available to download RFSv3 products: [https://apps.geoglows.org/previews/rfs-data-store/](https://apps.geoglows.org/previews/rfs-data-store/). This site provides metadata and information about the available data and allows users to browse through and download the data products of interest.
+7. **Datastore** - A new datastore is available to download RFSv3 products: [https://apps.geoglows.org/previews/rfs-data-store/](https://apps.geoglows.org/previews/rfs-data-store/). This site provides metadata and information about the available data and allows users to browse through and download the data products of interest. See [The Datastore](what-is-it/using-datastore.md) for instructions on how to use it.
 8. **Changes to this site** - This site has been updated and reorganized. Some of the more advanced information was moved to an advanced section. Information on groundwater was added as well.

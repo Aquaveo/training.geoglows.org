@@ -1,6 +1,6 @@
 # Correction du Biais sur une Rivière d'Intérêt
 
-Vous pouvez effectuer une correction du biais sur n'importe quelle rivière du RFS, à condition de connaître son LINKNO et de disposer de données observées correspondant à cette rivière. Le moyen le plus simple d'effectuer une correction du biais est d'utiliser la fonction du [package Python] (https://geoglows.readthedocs.io/en/latest/api-documentation/bias.html). Il existe une fonction pour corriger les données historiques et une autre pour corriger les données de prévision.
+Vous pouvez effectuer une correction du biais sur n'importe quelle rivière du RFS, à condition de connaître son identifiant de rivière (riverId) et de disposer de données observées correspondant à cette rivière. Le moyen le plus simple d'effectuer une correction du biais est d'utiliser la fonction du [package Python](https://geoglows.readthedocs.io/en/latest/api-documentation/bias.html). Il existe une fonction pour corriger les données historiques et une autre pour corriger les données de prévision.
 
 ## Correction du Biais - Exemple de Prévision
 

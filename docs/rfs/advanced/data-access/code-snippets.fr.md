@@ -6,11 +6,11 @@ de trouver des liens vers davantage d'informations. Rendez-vous sur [apps.geoglo
 
 ## Obtenir la liste des ID de mon bassin versant
 
-Chaque rivière du modèle RFS possède un attribut appelé « TerminalLink ». Le TerminalLink est le numéro d'ID de la rivière située à l'exutoire du
+Chaque rivière du modèle RFS possède un attribut appelé « outletRiverId ». L'outletRiverId est le numéro d'ID de la rivière située à l'exutoire du
 bassin versant dans lequel se trouve une rivière d'intérêt donnée. Toutes les rivières du bassin versant ont le même exutoire. Vous pouvez filtrer la table des rivières pour ne sélectionner que les
 rivières qui se déversent toutes dans la même rivière. Vous pouvez utiliser les jeux de données SIG et effectuer cette opération dans ArcGIS ou QGIS. Vous trouverez les liens permettant de récupérer les fichiers SIG
 des cours d'eau sur la page Données Disponibles et dans le tutoriel Trouver les Numéros de Rivière. Vous pouvez également effectuer cette opération en code, à l'aide des tables de
-métadonnées du RFS, en utilisant la table de métadonnées du modèle. Vous devrez télécharger cette table (environ 250 Mo) pour résoudre ce problème par code.
+métadonnées du RFS, en utilisant la table de métadonnées du modèle. Vous devrez télécharger cette table (environ 200 Mo) pour résoudre ce problème par code.
 
 <script src="https://gist.github.com/rileyhales/e94f0c51090f26bc396e2289d41edefd.js"></script>
 

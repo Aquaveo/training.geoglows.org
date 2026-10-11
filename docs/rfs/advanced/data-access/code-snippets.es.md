@@ -6,11 +6,11 @@ encontrar enlaces a más información. Visite [apps.geoglows.org/rfs](https://ap
 
 ## Obtener una lista de IDs en mi cuenca
 
-Cada río del modelo RFS tiene un atributo llamado "TerminalLink". El TerminalLink es el número de ID del río en la salida de la
+Cada río del modelo RFS tiene un atributo llamado "outletRiverId". El outletRiverId es el número de ID del río en la salida de la
 cuenca en la que se encuentra un río de interés determinado. Todos los ríos de la cuenca tienen la misma salida. Puede filtrar la tabla de ríos para seleccionar solo aquellos
 que drenan hacia el mismo río. Puede usar los conjuntos de datos SIG y realizar esta operación en ArcGIS o QGIS. Puede encontrar enlaces para obtener los archivos SIG
 de los ríos en la página de Datos Disponibles y en el tutorial sobre cómo Encontrar Números de Río. Alternativamente, puede hacerlo mediante código utilizando las tablas de
-metadatos de RFS, a través de la tabla de metadatos del modelo. Necesitará descargar esa tabla (aproximadamente 250 MB) para resolver este problema mediante código.
+metadatos de RFS, a través de la tabla de metadatos del modelo. Necesitará descargar esa tabla (aproximadamente 200 MB) para resolver este problema mediante código.
 
 <script src="https://gist.github.com/rileyhales/e94f0c51090f26bc396e2289d41edefd.js"></script>
 

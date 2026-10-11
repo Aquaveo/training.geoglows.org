@@ -8,11 +8,9 @@ The river network used by RFS is based on hydrography derived from TDX-Hydro dig
 
 ### Modifications to TDX-Hydro
 
-All the modifications we performed on each TDX-Hydro region are recorded in 3 files: 1) processing_options.xlsx, 2) tdx_header_numbers.json, and 3)
-terminal_node_vpu_list.csv. The TDX header number JSON file maps every TDX-Hydro region number to a unique 2-digit number, with the first digit being
-the first digit of the region number, and the second digit corresponding to the index of the sorted order of all the regions that share the first
-digit. The terminal node vpu CSV matches every terminal node (the id associated with the outlet of a watershed) with a VPU number. An overview of these
-changes are included here.
+All the modifications we performed on each TDX-Hydro region are recorded in JSON files in that region's `mods/` folder of the hydrography data,
+such as `branches_to_prune.json`, `coastal_orphans.json`, `headwater_dissolves.json`, `lake_edits.json`, `short_consolidations.json`, and
+`zero_length_streams.json`. An overview of these changes is included here.
 
 The regions that were excluded include those that are farther north and some of the smaller islands, where runoff datasets may not be as accurate and
 there is sparser or no population. Future versions may reintroduce these regions. Additionally, we corrected errors found in TDX-Hydro dataset which
@@ -25,7 +23,7 @@ were reported to the NGA for correction in future versions. These errors include
 3. Catchments with a stock identifier of '0' never had an associated stream. These were deleted.
 
 For most, but not all, of the regions, the headwaters streams were dissolved with the downstream segments, up to and including the downstream
-segment with a Strahler stream order of either 2 or 3. It was decided that regions that were largely coastal (Japan, Carribean islands, Indonesia)
+segment with a Strahler stream order of either 2 or 3. It was decided that regions that were largely coastal (Japan, Caribbean islands, Indonesia)
 were more sensitive to changes in their stream networks, and so these regions did not have their headwaters modified. Other areas, such as the
 Saharan desert, were delineated to the same resolution as the rest of the world -- often too much resolution. In these areas, more features could
 be merged without significantly altering the river routing. Thus, the headwaters and downstream streams were dissolved into one feature along with
@@ -68,6 +66,6 @@ The following table summarizes the core input datasets used by RFS:
 |---------------------------------|------------------------------------------------------------------------------------|---------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ERA5                            | [DOI](https://doi.org/10.24381/cds.adbb2d47)                                       | Reanalysis Land Surface Model   | ECMWF    | [Copernicus License](https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf) - Free for commercial and non-commercial use with attribution |
 | TDX-Hydro                       | [Link](https://earth-info.nga.mil/)                                                | River and Catchment Hydrography | NGA      | [TDX-Hydro License](https://earth-info.nga.mil/php/download.php?file=tdx-hydro-license) - Publicly available, provided "as is" without warranty                                  |
-| Integrated Forecast System 48R1 | [Link](https://confluence.ecmwf.int/display/FCST/Implementation+of+IFS+Cycle+48r1) | Forecast Land Surface Model     | ECMWF    | Requires Paid License                                                                                                                                 
+| Integrated Forecast System 48R1 | [Link](https://confluence.ecmwf.int/display/FCST/Implementation+of+IFS+Cycle+48r1) | Forecast Land Surface Model     | ECMWF    | Requires Paid License |
 
 In addition to the inputs to the actual model, observed data is used in the calibration process. Discuss collection and use of observed data briefly?

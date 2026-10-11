@@ -7,7 +7,7 @@ You can add it to web maps as a web layer without needing to download the additi
 
 ![screenshot](../../static/images/imagen.png)
 
-The layer is considered "time-enabled" meaning that it has attribute data describing each river segment over the first 10 of each daily forecast. Using that 
+The layer is considered "time-enabled" meaning that it has attribute data describing each river segment over the first 10 days of each daily forecast. Using that 
 information, the streams are animated to change color and size depending on how much water is predicted to be in the river and if that value is above a 
 return period level.
 
@@ -17,7 +17,7 @@ Some things that a user can do with this layer:
   The color of the streams will change if the stream experiences high flow during this time.
 - Features can be identified by clicking on the map. Preconfigured pop-ups show community sourced river names from OpenStreetMap.
 
-[More information](https://www.arcgis.com/home/item.html?id=8f0573e0c0b9491dbeafde9c72ccf02b) about the web map layer can be is on the ArcGIS website. Information about loading Living Atlas Layers into ArcGIS can be found [here](https://enterprise.arcgis.com/en/portal/10.5/use/add-living-atlas-layers.htm).
+[More information](https://www.arcgis.com/home/item.html?id=8f0573e0c0b9491dbeafde9c72ccf02b) about the web map layer can be found on the ArcGIS website. Information about loading Living Atlas Layers into ArcGIS can be found [here](https://enterprise.arcgis.com/en/portal/10.5/use/add-living-atlas-layers.htm).
 
 To load this map into QGIS do the following:
 

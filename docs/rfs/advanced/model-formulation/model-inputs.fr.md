@@ -8,11 +8,9 @@ Le réseau fluvial utilisé par le RFS est basé sur une hydrographie dérivée 
 
 ### Modifications apportées à TDX-Hydro
 
-Toutes les modifications que nous avons effectuées sur chaque région TDX-Hydro sont enregistrées dans 3 fichiers : 1) processing_options.xlsx, 2) tdx_header_numbers.json et 3)
-terminal_node_vpu_list.csv. Le fichier JSON des numéros d'en-tête TDX associe chaque numéro de région TDX-Hydro à un numéro unique à 2 chiffres, dont le premier chiffre est
-le premier chiffre du numéro de région, et le second chiffre correspond à l'indice dans l'ordre trié de toutes les régions qui partagent le même premier
-chiffre. Le fichier CSV des nœuds terminaux associe chaque nœud terminal (l'identifiant associé à l'exutoire d'un bassin versant) à un numéro de VPU. Un aperçu de ces
-modifications est présenté ici.
+Toutes les modifications que nous avons effectuées sur chaque région TDX-Hydro sont enregistrées dans des fichiers JSON du dossier `mods/` de cette
+région dans les données hydrographiques, comme `branches_to_prune.json`, `coastal_orphans.json`, `headwater_dissolves.json`, `lake_edits.json`,
+`short_consolidations.json` et `zero_length_streams.json`. Un aperçu de ces modifications est présenté ici.
 
 Les régions exclues comprennent celles situées le plus au nord et certaines des plus petites îles, où les jeux de données de ruissellement peuvent être moins précis et
 où la population est clairsemée ou inexistante. Les versions futures pourraient réintroduire ces régions. De plus, nous avons corrigé des erreurs trouvées dans le jeu de données TDX-Hydro, qui
@@ -68,6 +66,6 @@ Le tableau suivant résume les principaux jeux de données d'entrée utilisés p
 |---------------------------------|------------------------------------------------------------------------------------|---------------------------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ERA5                            | [DOI](https://doi.org/10.24381/cds.adbb2d47)                                       | Modèle de Surface Terrestre de Réanalyse | ECMWF      | [Licence Copernicus](https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf) - Gratuit pour un usage commercial et non commercial avec attribution |
 | TDX-Hydro                       | [Lien](https://earth-info.nga.mil/)                                                | Hydrographie des Rivières et des Bassins Versants | NGA        | [Licence TDX-Hydro](https://earth-info.nga.mil/php/download.php?file=tdx-hydro-license) - Disponible publiquement, fourni « tel quel » sans garantie                                  |
-| Integrated Forecast System 48R1 | [Lien](https://confluence.ecmwf.int/display/FCST/Implementation+of+IFS+Cycle+48r1) | Modèle de Surface Terrestre de Prévision | ECMWF      | Licence payante requise                                                                                                                                 
+| Integrated Forecast System 48R1 | [Lien](https://confluence.ecmwf.int/display/FCST/Implementation+of+IFS+Cycle+48r1) | Modèle de Surface Terrestre de Prévision | ECMWF      | Licence payante requise |
 
 En plus des entrées du modèle lui-même, des données observées sont utilisées dans le processus de calibration. Aborder brièvement la collecte et l'utilisation des données observées ?

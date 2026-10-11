@@ -2,7 +2,7 @@ The purpose of this section on model formulation is to provide an overview of th
 
 ## A Paradigm Shift
 
-Many institutions lack resources to manage data, run hydrologic models, and forecast future conditions. Often supprt for these things comes in the form of global datasets, including DEMs and meteorology data. This can help cover some of the data gaps, but the institutions still have the responsibility to take these datasets and do the hydrologic modeling themselves. Then this hydrologic model can be used to provide actionable water information in the form of local applications for things such as disaster preparedness, agricultural planning, and water management.
+Many institutions lack resources to manage data, run hydrologic models, and forecast future conditions. Often support for these things comes in the form of global datasets, including DEMs and meteorology data. This can help cover some of the data gaps, but the institutions still have the responsibility to take these datasets and do the hydrologic modeling themselves. Then this hydrologic model can be used to provide actionable water information in the form of local applications for things such as disaster preparedness, agricultural planning, and water management.
 
 ![Paradigm shift, part 1](../../../static/images/paradigm_shift_part1.png)
 

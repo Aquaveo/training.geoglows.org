@@ -7,7 +7,7 @@ Este sitio de capacitación se centra en la versión 3 de RFS (River Forecast Sy
     2. **Regiones** - Los datos de hidrografía ya no están organizados en 125 VPUs. En su lugar, ahora están organizados en 47 regiones numeradas a partir de sus cuencas de nivel 2 de HydroSHEDS.
     3. **Lagos** - El conjunto de datos de hidrografía muestra un nuevo conjunto de lagos. Este es diferente de los lagos que estaban disponibles en RFSv2.
 2. **Formatos de almacenamiento de datos** - Los archivos zarr ahora utilizan la versión 3 de zarr en lugar de la versión 2. Se agregaron más metadatos a los archivos y el almacenamiento se optimizó aún más.
-3. **Cambios en los procesos de enrutamiento** - El proceso que enruta el agua a través de los ríos se actualizó para depender completamente de un paquete de Python llamado riverroute, desarrollado por el Dr. Riley Hales. El proceso se actualizó para ejecutarse más rápido y se hicieron algunas correcciones menores a algunas de las entradas del modelo.
+3. **Cambios en los procesos de enrutamiento** - El proceso que enruta el agua a través de los ríos se actualizó para depender completamente de un paquete de Python llamado river-route, desarrollado por el Dr. Riley Hales. El proceso se actualizó para ejecutarse más rápido y se hicieron algunas correcciones menores a algunas de las entradas del modelo.
 4. **Nuevos buckets de AWS** - Un nuevo bucket de AWS contiene todos los datos de la versión 3 del modelo. Se puede encontrar aquí: [https://v3.s3.riverforecastsystem.com](https://v3.s3.riverforecastsystem.com).
 5. **Nuevas Aplicaciones Web**
     1. HydroSOS

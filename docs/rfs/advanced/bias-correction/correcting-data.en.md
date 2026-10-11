@@ -1,6 +1,6 @@
 # Performing Bias Correction on River of Interest
 
-You are able to perform bias correction on any river from RFS given that you know the LINKNO and have observed data to match up with the river. The easiest way to perform bias-correction is by using the function in the [python package] (https://geoglows.readthedocs.io/en/latest/api-documentation/bias.html). There is a function to correct the historical data and another to correct the forecast data.
+You are able to perform bias correction on any river from RFS given that you know the river ID (riverId) and have observed data to match up with the river. The easiest way to perform bias-correction is by using the function in the [python package](https://geoglows.readthedocs.io/en/latest/api-documentation/bias.html). There is a function to correct the historical data and another to correct the forecast data.
 
 ## Bias Correction - Forecast Example
 

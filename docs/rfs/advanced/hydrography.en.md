@@ -26,14 +26,14 @@
 
 The RFS hydrography is a modification of the TDX-Hydro streams and catchments dataset. It comes from proprietary TanDEM-X 12-m elevation data. You can
 download the full dataset and review the full technical description document describing its creation at https://earth-info.nga.mil/ under the "Geosciences" tab. The full TDX-Hydro dataset has about 16 million river segments and covers the full globe in 62 pieces corresponding to HydroBASINS
-level 2. We skipped 12 regions and representing islands or the farther north land areas. Additional, many revisions to reduce the stream feature count
+level 2. We skipped 12 regions representing islands or the farther north land areas. Additionally, many revisions to reduce the stream feature count
 and optimize the network for channel routing reduce the total number of rivers to a total of 4.9 million rivers. This version used in RFS is
 available for users to download and use for their own purposes. This dataset is referred to as hydrography, hydrofabric, or river network. It is
 vector data with points and lines with coordinates, not grid data, and it includes four main components:
 
-- The exact **stream center lines** used in RFS. Each stream has a unique 9 number ID which is referred to as a reachID, link number, or stream ID.
+- The exact **stream center lines** used in RFS. Each stream has a unique 9-digit ID which is referred to as a reachID, link number, or stream ID.
   This is the file called "streams_{region}.geo.parquet".
-- The **catchment boundaries** used RFS. There are the boundaries around each of the streamlines and represent the area connected to that streamline.
+- The **catchment boundaries** used in RFS. These are the boundaries around each of the streamlines and represent the area connected to that streamline.
   It is identified using the same river ID as the stream center lines. This is the file called "catchments_{region}.geo.parquet". Each stream
   centerline corresponds to exactly one unique catchment boundary.
 - The **connection points** used in RFS where different stream centerlines connect. Each point has an attribute called riverId which represents

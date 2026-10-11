@@ -1,16 +1,16 @@
 ## Download RFS forecast data for my river
 
-If you only need to download data for a few rivers, or you do not want to write code, use the web app! Our apps lets you graphically
-browse a map of rivers, view and downloading forecast or retrospective data, compare forecasts with the latest satellite imagery, and
-finding links to more information. Visit [apps.geoglows.org/rfs](https://apps.geoglows.org/rfs){:target="_blank"} to get started.
+If you only need to download data for a few rivers, or you do not want to write code, use the web app! Our apps let you graphically
+browse a map of rivers, view and download forecast or retrospective data, compare forecasts with the latest satellite imagery, and
+find links to more information. Visit [apps.geoglows.org/rfs](https://apps.geoglows.org/rfs){:target="_blank"} to get started.
 
 ## Get a list of IDs in my watershed
 
-Every river in the RFS model has an attribute called "TerminalLink". The TerminalLink is the ID number of the river at the outlet of the
+Every river in the RFS model has an attribute called "outletRiverId". The outletRiverId is the ID number of the river at the outlet of the
 watershed a given river of interest is in. Every river in the watershed has the same outlet. You can filter the table of rivers to select only those
 rivers which all drain to the same river. You may use the GIS datasets and perform that in ArcGIS or QGIS. You can find links to retrieve GIS files
-for the streams using the Available Data page and the tutorial on Finding River Numbers Alternatively, you can do this in code by using the tables of
-metadata for RFS using the model metadata table. You will need to download that table (about 250 MB) in order to solve this problem via code.
+for the streams using the Available Data page and the tutorial on Finding River Numbers. Alternatively, you can do this in code by using the tables of
+metadata for RFS using the model metadata table. You will need to download that table (about 200 MB) in order to solve this problem via code.
 
 <script src="https://gist.github.com/rileyhales/e94f0c51090f26bc396e2289d41edefd.js"></script>
 

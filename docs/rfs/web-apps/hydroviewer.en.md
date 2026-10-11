@@ -128,7 +128,7 @@ This graph is designed to show information about the peak discharge of a river. 
 
 ### Raster Hydrograph
 
-![Rater Hydrograph](../../static/images/raster_hydrograph.png)
+![Raster Hydrograph](../../static/images/raster_hydrograph.png)
 
 A raster hydrograph is a grid-based visualization showing the temporal variation of streamflow for a single river. The x-axis represents months, the y-axis represents years, and the color of each cell indicates the streamflow magnitude. The point is that you can see all 85 years at once. Looking across a row shows the flow for one year, while looking up or down a column shows the same date across all years, for example every March 15th. This makes it easy to identify seasonal patterns, quickly see wet and dry periods, and spot outliers or years where the wet season was longer or shorter than normal.
 

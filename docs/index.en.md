@@ -1,7 +1,7 @@
 ![image](static/images/NewGEOGLOWSLOGO.png)
 # Welcome to the GEOGLOWS Model Training Hub!
 
-This site is focused on providing technical information about how to use the RFS model. There are both written instructions found under "River Forecast System" and also webinars availbale under the "Webinar" section. If you would like to learn more about GEOGLOWS as an organization, please visit our [GEOGLOWS website](https://www.geoglows.org/).
+This site is focused on providing technical information about how to use the RFS model. There are both written instructions found under "River Forecast System" and also webinars available under the "Webinar" section. If you would like to learn more about GEOGLOWS as an organization, please visit our [GEOGLOWS website](https://www.geoglows.org/).
 
 ## Watch this video to learn about GEOGLOWS!
 

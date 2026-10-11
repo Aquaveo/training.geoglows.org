@@ -1,6 +1,6 @@
 # Corrección de Sesgo en un Río de Interés
 
-Puede realizar la corrección de sesgo en cualquier río de RFS siempre que conozca su LINKNO y disponga de datos observados que correspondan a ese río. La forma más sencilla de realizar la corrección de sesgo es usar la función del [paquete de Python] (https://geoglows.readthedocs.io/en/latest/api-documentation/bias.html). Hay una función para corregir los datos históricos y otra para corregir los datos de pronóstico.
+Puede realizar la corrección de sesgo en cualquier río de RFS siempre que conozca su ID de río (riverId) y disponga de datos observados que correspondan a ese río. La forma más sencilla de realizar la corrección de sesgo es usar la función del [paquete de Python](https://geoglows.readthedocs.io/en/latest/api-documentation/bias.html). Hay una función para corregir los datos históricos y otra para corregir los datos de pronóstico.
 
 ## Corrección de Sesgo - Ejemplo de Pronóstico
 

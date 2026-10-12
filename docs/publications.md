@@ -13,6 +13,16 @@
   MDPI Hydrology, February 2025   
   [DOI: 10.3390/hydrology12030043](https://doi.org/10.3390/hydrology12030043)
 
+- **Global water level forecast system: integrating Earth Observation data for hydrological hazard monitoring**  
+  *Jorge Luis Sanchez Lozano, Juseth E. Chancay, Darlly Judith Rojas Lesmes, E. Giovanni Romero Bustamante, E. James Nelson, Mario German Trujillo-Vela, Karina Larco, Riley C. Hales, Michael A. Souffront, Angelica L. Gutierrez*  
+  GeoHorizons, February 2026  
+  [DOI: 10.1144/gh2025-14](https://doi.org/10.1144/gh2025-14)
+
+- **From Data Streams to Decisions: Multi-Source Hydrometeorological Integration Platforms for Interagency Risk-Management Capacity Building in Data-Limited Regions**  
+  *Juseth E. Chancay, Jorge Sánchez-Lozano, Karina Larco Dawson, Darlly Rojas-Lesmes, Carlos Cárdenas, Angela M. Iza, Adriana Rodríguez, Abigail Navarrete, Mariana Quispillo, Rodrigo Torres, Carmen Josse, Bolívar Erazo, Giovanni Romero, Riley C. Hales, E. James Nelson, Angélica L. Gutiérrez*  
+  IntechOpen — Flood Risk: Assessment, Management Strategies, and Emerging Technologies, 2026  
+  [DOI: 10.5772/intechopen.1015810](https://doi.org/10.5772/intechopen.1015810)
+
 ### Global Flood Mapping Experiments
 
 - **Assessing Coincidence of Satellite Acquisitions and Flood Events to Predict Suitability for Flood Maps Synthesis**  
@@ -24,6 +34,11 @@
   *Taylor James Miskin, L. Ricardo Rosas, Riley C. Hales, E. James Nelson, Michael L. Follum, Joseph L. Gutenson, Gustavious P. Williams, Norman L. Jones*
   MDPI Hydrology, August 2025  
   [DOI: 10.3390/hydrology12080202](https://doi.org/10.3390/hydrology12080202)
+
+### Reports & Resources
+
+- **[WMO State of the Water Report](https://wmo.int/publication-series/state-of-global-water-resources)** — The World Meteorological Organization (WMO) State of Global Water Resources reports (2021-2026), a worldwide annual assessment of river flow, groundwater, soil moisture, and other hydrological conditions. RFS data is included in the report.
+- **[HydroSOS Portal](https://wmohydrosos.ceh.ac.uk/portal)** — An interactive portal for the WMO Hydrological Status and Outlook System (HydroSOS), showing where global river and groundwater conditions are below, near, or above normal. RFS data is included in the portal.
 
 ## RFS V1
 ### Model Design
@@ -90,9 +105,9 @@
 
 ### Example Use Cases
 
-- **Darlly Rojas-Lesmes, Jorge Sanchez- Lozano, E. James Nelson, Juseth Chancay-Sanchez, Jhonatan Rodriguez-Chaves, Karina Larco-Erazo, E. Giovanni Romero, Mario Trujillo-Vela, Riley C. Hales, Daniel P Ames, Angelica L. Gutierrez**  
-  *National Water Level Forecast (NWLF): An open-source customizable web application for the GEOGLOWS ECMWF global hydrologic model*  
-  Information Hydrography, June 2025
+- **National Water Level Forecast (NWLF): An open-source customizable web application for the GEOGLOWS ECMWF global hydrologic model**  
+  *Darlly Rojas-Lesmes, Jorge Sanchez- Lozano, E. James Nelson, Juseth Chancay-Sanchez, Jhonatan Rodriguez-Chaves, Karina Larco-Erazo, E. Giovanni Romero, Mario Trujillo-Vela, Riley C. Hales, Daniel P Ames, Angelica L. Gutierrez*  
+  Information Hydrography, June 2025  
   [DOI: 10.1016/j.infgeo.2025.100008](https://doi.org/10.1016/j.infgeo.2025.100008)
 
 - **Discharge-to-water level transformation (DWLT) using monthly duration curves: enhancing the utility of the GEOGLOWS ECMWF hydrological model**  

@@ -1,4 +1,7 @@
 site_name: GEOGLOWS Training
+# Version 2 archive: built and reachable at /v2/ but intentionally kept out of the sidebar.
+not_in_nav: |
+  /v2/**
 markdown_extensions:
   - attr_list
   - admonition
@@ -77,6 +80,30 @@ plugins:
             "2. GEOGLOWS Model Formulation": "2. Formulación del Modelo GEOGLOWS"
             "3. GEOGLOWS Available Data": "3. Datos Disponibles de GEOGLOWS"
             "4. GEOGLOWS Hydroviewer 101": "4. Introducción al Hydroviewer de GEOGLOWS"
+            "What's New?": "Novedades"
+            "Part 1 What is it?": "Parte 1: ¿Qué es?"
+            Part 2 Globally Available Web Applications: "Parte 2: Aplicaciones Web Disponibles Globalmente"
+            Part 3 Tutorials: "Parte 3: Tutoriales"
+            Bias Correction: "Corrección de Sesgo"
+            Part 4 Advanced Concepts: "Parte 4: Conceptos Avanzados"
+            Model Overview: "Resumen del Modelo"
+            V3 Model Improvements: "Mejoras del Modelo V3"
+            Model Inputs: "Entradas del Modelo"
+            River Routing: "Enrutamiento Fluvial"
+            Flood Mapping: "Mapeo de Inundaciones"
+            Available Data: "Datos Disponibles"
+            Advanced Data Access: "Acceso Avanzado a los Datos"
+            Code and APIs: "Código y APIs"
+            Flood Maps: "Mapas de Inundación"
+            The Datastore: "El Almacén de Datos"
+            Overview of Available Applications: "Resumen de las Aplicaciones Disponibles"
+            Flood Map App: "Aplicación de Mapas de Inundación"
+            HydroSOS App: "Aplicación HydroSOS"
+            FEWS App: "Aplicación FEWS"
+            Calculating Streamflow Volume: "Cálculo del Volumen de Caudal"
+            Web Maps (GIS Layers): "Mapas Web (Capas SIG)"
+            Bias Correction Method: "Método de Corrección de Sesgo"
+            Local Bias Correction: "Corrección de Sesgo Local"
         - locale: fr
           name: Français
           build: true
@@ -133,10 +160,34 @@ plugins:
             "2. GEOGLOWS Model Formulation": "2. Formulation du Modèle GEOGLOWS"
             "3. GEOGLOWS Available Data": "3. Données Disponibles de GEOGLOWS"
             "4. GEOGLOWS Hydroviewer 101": "4. Introduction à l'Hydroviewer GEOGLOWS"
+            "What's New?": "Nouveautés"
+            "Part 1 What is it?": "Partie 1 : Qu'est-ce que c'est ?"
+            Part 2 Globally Available Web Applications: "Partie 2 : Applications Web Disponibles Mondialement"
+            Part 3 Tutorials: "Partie 3 : Tutoriels"
+            Bias Correction: "Correction du Biais"
+            Part 4 Advanced Concepts: "Partie 4 : Concepts Avancés"
+            Model Overview: "Aperçu du Modèle"
+            V3 Model Improvements: "Améliorations du Modèle V3"
+            Model Inputs: "Entrées du Modèle"
+            River Routing: "Routage Fluvial"
+            Flood Mapping: "Cartographie des Inondations"
+            Available Data: "Données Disponibles"
+            Advanced Data Access: "Accès Avancé aux Données"
+            Code and APIs: "Code et APIs"
+            Flood Maps: "Cartes d'Inondation"
+            The Datastore: "Le Magasin de Données"
+            Overview of Available Applications: "Aperçu des Applications Disponibles"
+            Flood Map App: "Application de Cartes d'Inondation"
+            HydroSOS App: "Application HydroSOS"
+            FEWS App: "Application FEWS"
+            Calculating Streamflow Volume: "Calcul du Volume d'Écoulement"
+            Web Maps (GIS Layers): "Cartes Web (Couches SIG)"
+            Bias Correction Method: "Méthode de Correction du Biais"
+            Local Bias Correction: "Correction Locale du Biais"
 theme:
   name: readthedocs
   custom_dir: overrides
-  navigation_depth: 3
+  navigation_depth: 4
   logo: static/images/geoglows-logo.png
 hooks:
   - hooks/i18n_root_templates.py
@@ -149,26 +200,44 @@ extra_javascript:
 nav:
   - Home: index.md
   - River Forecast System:
-      - Part 1 Model Formulation:
-          - Model Formulation: rfs/model-formulation/model-formulation.md
-      - Part 2 Available Data:
-          - Data Catalog: rfs/datasets/catalog.md
-          - Hydrography: rfs/datasets/hydrography.md
-          - Retrospective Data: rfs/datasets/retrospective.md
-          - Forecast Data: rfs/datasets/forecast.md
-      - Part 3 Accessing Data:
-          - Web App: rfs/accessing-data/web-app.md
-          - Code Notebooks: rfs/accessing-data/exercises.md
-          - Bulk Downloads: rfs/accessing-data/bulk-download.md
-          - Cookbook: rfs/accessing-data/code-snippets.md
-      - Part 4 Tutorials:
+      - What's New?: rfs/whats-new.md
+      - Part 1 What is it?:
+          - Model Overview: rfs/what-is-it/model-overview.md
+          - Available Data: rfs/what-is-it/available-data.md
+          - Flood Maps: rfs/what-is-it/flood-maps.md
+          - The Datastore: rfs/what-is-it/using-datastore.md
+      - Part 2 Globally Available Web Applications:
+          - Overview of Available Applications: rfs/web-apps/overview.md
+          - Hydroviewer: rfs/web-apps/hydroviewer.md
+          - FEWS App: rfs/web-apps/fews-app.md
+          - HydroSOS App: rfs/web-apps/hydrosos.md
+          - Flood Map App: rfs/web-apps/flood-map-app.md
+      - Part 3 Tutorials:
           - Finding River Numbers: rfs/tutorials/find-river-numbers.md
-          - Querying Data: rfs/tutorials/query-data.md
-          - API (Data Service): rfs/tutorials/data-service.md
-          - Web Maps (GIS Layer): rfs/tutorials/web-map.md
-      - Part 5 Bias Correction:
-          - SABER Method: rfs/bias-correction/bias-correction.md
-          - Correcting Forecasts: rfs/bias-correction/forecasted-bias-correction.md
+          - Web Maps (GIS Layers): rfs/tutorials/web-map.md
+          - Calculating Streamflow Volume: rfs/tutorials/streamflow-volume.md
+      - Part 4 Advanced Concepts:
+          - Model Formulation:
+              - Overview: rfs/advanced/model-formulation/model-formulation.md
+              - V3 Model Improvements: rfs/advanced/model-formulation/v3-improvements.md
+              - Model Inputs: rfs/advanced/model-formulation/model-inputs.md
+              - River Routing: rfs/advanced/model-formulation/river-routing.md
+              - Flood Mapping: rfs/advanced/model-formulation/flood-mapping.md
+          - Hydrography: rfs/advanced/hydrography.md
+          - Advanced Data Access:
+              - Data Catalog: rfs/advanced/data-access/catalog.md
+              - Code and APIs: rfs/advanced/data-access/code-and-apis.md
+              - Cookbook: rfs/advanced/data-access/code-snippets.md
+              - Bulk Downloads: rfs/advanced/data-access/bulk-download.md
+          - Bias Correction:
+              - SABER Method: rfs/advanced/bias-correction/saber-method.md
+              - Bias Correction Method: rfs/advanced/bias-correction/bias-correction-method.md
+              - Local Bias Correction: rfs/advanced/bias-correction/correcting-data.md
+      - Webinars:
+          - "1. GEOGLOWS History and Introducing RFS Version 2": rfs/webinars/rfs-v2-webinar-1.md
+          - "2. GEOGLOWS Model Formulation": rfs/webinars/rfs-v2-webinar-2.md
+          - "3. GEOGLOWS Available Data": rfs/webinars/rfs-v2-webinar-3.md
+          - "4. GEOGLOWS Hydroviewer 101": rfs/webinars/rfs-v2-webinar-4.md
       - Publications: publications.md
   - GRACE Regional Analyst:
       - Part 1 Background:
@@ -195,8 +264,3 @@ nav:
           - Volta Basin: grace/case-studies/volta.md
           - California's Central Valley: grace/case-studies/central-valley.md
       - Publications: grace/publications.md
-  - Webinars:
-      - "1. GEOGLOWS History and Introducing RFS Version 2": webinars/rfs-v2-webinar-1.md
-      - "2. GEOGLOWS Model Formulation": webinars/rfs-v2-webinar-2.md
-      - "3. GEOGLOWS Available Data": webinars/rfs-v2-webinar-3.md
-      - "4. GEOGLOWS Hydroviewer 101": webinars/rfs-v2-webinar-4.md

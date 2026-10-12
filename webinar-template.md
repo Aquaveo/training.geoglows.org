@@ -2,7 +2,7 @@
 WEBINAR TEMPLATE
 
 Instructions:
-1. Copy this file to docs/webinars/[webinar-slug].en.md
+1. Copy this file to docs/rfs/webinars/[webinar-slug].en.md
 2. Fill in all the empty values in the front matter
 3. Add the webinar to the navigation in mkdocs.yml
 4. Delete this comment block

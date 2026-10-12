@@ -6,12 +6,11 @@ Il existe 3 grands ensembles de données :
 
 1. Les données rétrospectives
 2. Les données de prévision à 15 jours
-3. Les données de prévision à 45 jours
+3. Les cartes d'inondation
 
 Chacun d'eux est expliqué plus en détail dans les sections suivantes. Vous trouverez également plus d'informations dans le [magasin de données](accessing-data/datastore.md).
 
 ## Données Rétrospectives
-
 
 ### Aperçu
 
@@ -20,18 +19,6 @@ La simulation rétrospective du RFS contient plus de 85 ans de données à réso
 ![image](../../static/images/retro_data.png)
 
 La simulation rétrospective fournit des débits moyens horaires, qui sont ensuite agrégés en moyennes journalières, mensuelles et annuelles. Les débits sont rapportés comme la moyenne sur l'intervalle suivant (heure, jour, mois ou année). La valeur indiquée représente le débit moyen à partir de ce moment jusqu'au pas de temps suivant. Toutes les valeurs sont en mètres cubes par seconde.
-
-
-| Propriété du modèle       | Simulation Rétrospective      |
-|---------------------------|------------------------------|
-| Date la plus ancienne     | 01 janvier 1940              |
-| Type de simulation        | Déterministe                 |
-| Membres de l'ensemble     | 1                            |
-| Délai                     | 5-12 jours par rapport à aujourd'hui |
-| Pas de temps              | Moyenne horaire              |
-| Fréquence de mise à jour  | Hebdomadaire, le dimanche à 00:00 UTC |
-| Téléchargement en masse disponible | Oui                 |
-| Requête & sous-ensemble disponible | Oui                 |
 
 ---
 
@@ -60,16 +47,6 @@ de l'état de référence.
 
 La prévision de chaque jour est initialisée en utilisant comme condition initiale la valeur moyenne sur 24 heures des membres de l'ensemble du jour précédent.
 
-| Propriété du modèle      | Simulation de Prévision |
-|--------------------------|-------------------------|
-| Type de simulation       | Ensemble                |
-| Membres de l'ensemble    | 50+1                    |
-| Horizon de prévision     | 15 jours                |
-| Pas de temps             | Moyenne sur 3 heures    |
-| Fréquence de mise à jour | Quotidienne à 00:00 UTC |
-| Téléchargement en masse disponible | Oui           |
-| Requête & sous-ensemble disponible | Oui           |
-
 ### Interprétation d'une Prévision d'Ensemble
 
 Chaque membre de l'ensemble a une probabilité égale de se produire. Par conséquent, il est préférable de comprendre les prévisions en examinant les résumés de l'ensemble
@@ -88,5 +65,25 @@ Dans l'exemple de graphique de prévision suivant, il y a 3 zones sur lesquelles
 
 ![image](../../static/images/forecast.png)
 
+<!-- Hidden for now: 45-day forecast section
 ## Données de Prévision à 45 Jours
 Cette section est un espace réservé pour le contenu qui figurera ici si ces données sont produites.
+-->
+
+## Cartes d'Inondation
+
+Les cartes d'inondation du RFS montrent la zone qui serait inondée le long d'une rivière, ainsi que la profondeur de l'eau, pour un débit
+donné. Elles montrent uniquement les inondations dues au débordement des rivières, et non celles causées directement par la pluie. Les
+cartes d'inondation sont actuellement en version préliminaire. Il existe trois produits de cartes d'inondation :
+
+- **Cartes d'inondation prévues** : L'étendue et la profondeur de l'inondation prévues par chaque prévision quotidienne à 15 jours.
+- **Cartes d'inondation par période de retour** : L'étendue et la profondeur de l'inondation pour les débits de chaque période de retour,
+  comme le débit de 2 ans ou de 100 ans. Elles ne dépendent pas d'une prévision.
+- **Bibliothèques d'inondation (FLDPLN)** : Les tables utilisées pour transformer n'importe quel débit en carte d'inondation. Elles
+  peuvent servir à créer vos propres cartes d'inondation pour le débit de votre choix.
+
+![Exemple de carte d'inondation près de Grand Junction, Colorado. Le bleu plus foncé indique une eau plus profonde.](../../static/images/flood-map-example.png)
+
+Pour voir les cartes d'inondation, utilisez les outils de cartographie des inondations du [Hydroviewer](../web-apps/hydroviewer.md). Pour les télécharger,
+consultez [Accès aux Cartes d'Inondation](accessing-data/flood-maps.md). Pour savoir comment elles sont produites, consultez
+[Cartographie des Inondations](../model-formulation/flood-mapping.md) dans la section Formulation du Modèle.

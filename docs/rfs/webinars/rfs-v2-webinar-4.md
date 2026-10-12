@@ -1,6 +1,6 @@
 ---
 webinar:
-  title: "4. GEOGLOWS Hydroviewer 101"
+  title: "4. RFS Hydroviewer 101"
   date: "21 October 2025"
   youtube_id: "TvRUwxdSYn8"
   video_width_max: "720"

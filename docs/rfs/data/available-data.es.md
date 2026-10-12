@@ -6,12 +6,11 @@ Hay 3 conjuntos principales de datos.
 
 1. Los datos retrospectivos
 2. Los datos de pronóstico de 15 días
-3. Los datos de pronóstico de 45 días
+3. Los mapas de inundación
 
 Cada uno se explica con más detalle en las siguientes secciones. También hay más información en el [almacén de datos](accessing-data/datastore.md).
 
 ## Datos Retrospectivos
-
 
 ### Descripción General
 
@@ -20,18 +19,6 @@ La simulación retrospectiva de RFS contiene datos de más de 85 años a resoluc
 ![image](../../static/images/retro_es.png)
 
 La simulación retrospectiva proporciona caudales promedio horarios que se remuestrean a promedios diarios, mensuales y anuales. Los caudales se reportan como el promedio que ocurrió durante el siguiente intervalo (hora, día, mes o año). El valor dado representa el caudal promedio desde ese momento hasta el siguiente paso de tiempo. Todos los valores están en metros cúbicos por segundo.
-
-
-| Propiedad del Modelo              | Simulación Retrospectiva      |
-|-----------------------------------|-------------------------------|
-| Fecha más antigua                 | 01 de enero de 1940           |
-| Tipo de simulación                | Determinista                  |
-| Miembros del ensamble             | 1                             |
-| Tiempo de desfase                 | 5-12 días desde el presente   |
-| Paso de tiempo                    | Promedio horario              |
-| Frecuencia de actualización       | Semanal, domingo 00:00 UTC    |
-| Descarga masiva disponible        | Sí                            |
-| Consulta y subconjunto disponible | Sí                            |
 
 ---
 
@@ -57,16 +44,6 @@ Cada pronóstico incluye un **ensamble de 50+1 miembros**, lo que significa que 
 
 El pronóstico de cada día se inicializa utilizando como condición inicial el valor promedio de 24 horas de los miembros del ensamble del día anterior. 
 
-| Propiedad del Modelo              | Simulación de Pronóstico |
-|-----------------------------------|--------------------------|
-| Tipo de simulación                | Ensamble                 |
-| Miembros del ensamble             | 50+1                     |
-| Horizonte de pronóstico           | 15 días                  |
-| Paso de tiempo                    | Promedio cada 3 horas    |
-| Frecuencia de actualización       | Diario a las 00:00 UTC   |
-| Descarga masiva disponible        | Sí                       |
-| Consulta y subconjunto disponible | Sí                       |
-
 ### Interpretación de un Pronóstico por Ensamble
 
 Cada miembro del ensamble tiene la misma probabilidad de ocurrir. Por lo tanto, los pronósticos se comprenden mejor observando resúmenes del ensamble en lugar de miembros individuales.
@@ -81,5 +58,25 @@ En el siguiente gráfico de pronóstico de ejemplo, hay 3 elementos clave a obse
 
 ![imagen](../../static/images/forecast_es.png)
 
+<!-- Hidden for now: 45-day forecast section
 ## Datos de Pronóstico de 45 Días
 Este es un marcador de posición para el contenido que irá aquí si se llega a producir.
+-->
+
+## Mapas de Inundación
+
+Los mapas de inundación de RFS muestran el área que se inundaría a lo largo de un río, y la profundidad que alcanzaría el agua, para un
+caudal determinado. Muestran únicamente las inundaciones causadas por ríos que se desbordan, no las causadas directamente por la lluvia.
+Los mapas de inundación están actualmente en versión preliminar. Hay tres productos de mapas de inundación:
+
+- **Mapas de inundación pronosticados**: La extensión y profundidad de la inundación prevista por cada pronóstico diario de 15 días.
+- **Mapas de inundación por período de retorno**: La extensión y profundidad de la inundación para los caudales de cada período de
+  retorno, como el caudal de 2 o de 100 años. No dependen de un pronóstico.
+- **Bibliotecas de inundación (FLDPLN)**: Las tablas que se utilizan para convertir cualquier caudal en un mapa de inundación. Pueden
+  usarse para crear sus propios mapas de inundación para el caudal que elija.
+
+![Ejemplo de mapa de inundación cerca de Grand Junction, Colorado. El azul más oscuro indica agua más profunda.](../../static/images/flood-map-example.png)
+
+Para ver los mapas de inundación, utilice las herramientas de mapeo de inundaciones del [Hydroviewer](../web-apps/hydroviewer.md). Para descargarlos, consulte
+[Acceso a los Mapas de Inundación](accessing-data/flood-maps.md). Para saber cómo se elaboran, consulte [Mapeo de Inundaciones](../model-formulation/flood-mapping.md) en la sección de
+Formulación del Modelo.

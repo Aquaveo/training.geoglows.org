@@ -6,12 +6,11 @@ There are 3 main sets of data.
 
 1. The retrospective data
 2. The 15-day forecast data
-3. The 45-day forecast data
+3. The flood maps
 
 Each of these is explained in more depth in the following sections. There is also more information in the [datastore](accessing-data/datastore.md).
 
 ## Retrospective Data
-
 
 ### Overview
 
@@ -23,18 +22,6 @@ simulation and many derivative products are updated weekly.
 The retrospective simulation provides hourly average streamflows which are resampled to daily, monthly, and yearly averages. Flows are reported as the
 average that occurred over the following interval (hour, day, month, or year). The value given represents the average flow starting at that time until the next timestep. All values are in cubic
 meters per second.
-
-
-| Model Property           | Retrospective Simulation   |
-|--------------------------|----------------------------|
-| Earliest Date            | 01 January 1940            |
-| Simulation Type          | Deterministic              |
-| Ensemble Members         | 1                          |
-| Lag time                 | 5-12 Days from present     |
-| Time Step                | Hourly average             |
-| Update Frequency         | Weekly on Sunday 00:00 UTC |
-| Bulk Download Available  | Yes                        |
-| Query & Subset Available | Yes                        |
 
 ---
 
@@ -70,16 +57,6 @@ the baseline condition.
 
 Each day's forecast is initialized using the 24-hour mean value from the ensemble members on the previous day as the initial condition. 
 
-| Model Property           | Forecast Simulation |
-|--------------------------|--------------------------|
-| Simulation Type          | Ensemble                 |
-| Ensemble Members         | 50+1                     |
-| Lead time                | 15 Days                  |
-| Time Step                | 3-hour average           |
-| Update Frequency         | Daily at 00:00 UTC       |
-| Bulk Download Available  | Yes                      |
-| Query & Subset Available | Yes                      |
-
 ### Interpreting an Ensemble Forecast
 
 Each ensemble member has an equal probability of occurring. Therefore, forecasts are best understood by looking at summaries of the ensembles rather
@@ -98,5 +75,24 @@ In the following example forecast plot, there are 3 areas to focus on:
 
 ![image](../../static/images/forecast.png)
 
+<!-- Hidden for now: 45-day forecast section
 ## 45 Day Forecast Data
 This is a placeholder for what will go here if it is produced.
+-->
+
+## Flood Maps
+
+RFS flood maps show the area that would flood along a river, and how deep the water would be, for a given streamflow. They show
+flooding from rivers overflowing their banks only, not flooding caused directly by rainfall. The flood maps are currently in preview.
+There are three flood map products:
+
+- **Forecast flood maps**: The extent and depth of flooding predicted by each day's 15-day forecast.
+- **Return period flood maps**: The extent and depth of flooding for flows of each return period, such as the 2-year or 100-year flow.
+  These are not tied to a forecast.
+- **Flood libraries (FLDPLN)**: The tables used to turn any streamflow into a flood map. These can be used to make your own flood maps
+  for a flow of your choice.
+
+![An example flood map near Grand Junction, Colorado. Darker blue shows deeper water.](../../static/images/flood-map-example.png)
+
+To see flood maps, use the flood mapping tools in the [Hydroviewer](../web-apps/hydroviewer.md). To download them, see [Accessing Flood Maps](accessing-data/flood-maps.md). To learn
+how they are made, see [Flood Mapping](../model-formulation/flood-mapping.md) in the Model Formulation section.

@@ -1,6 +1,6 @@
 ---
 webinar:
-  title: "2. GEOGLOWS Model Formulation"
+  title: "2. RFS Model Formulation"
   date: "23 September 2025"
   youtube_id: "jw1CNAMhQ6A"
   video_width_max: "720"

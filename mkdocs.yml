@@ -5,6 +5,7 @@ not_in_nav: |
 # Pages not currently used on the site: kept in the repo but not built or published.
 exclude_docs: |
   /unused/
+  /rfs/improving-results/
 markdown_extensions:
   - attr_list
   - admonition
@@ -70,9 +71,9 @@ plugins:
             California's Central Valley: "Valle Central de California"
             Webinars: "Seminarios Web"
             "1. GEOGLOWS History and Introducing RFS Version 2": "1. Historia de GEOGLOWS y Presentación de RFS Versión 2"
-            "2. GEOGLOWS Model Formulation": "2. Formulación del Modelo GEOGLOWS"
-            "3. GEOGLOWS Available Data": "3. Datos Disponibles de GEOGLOWS"
-            "4. GEOGLOWS Hydroviewer 101": "4. Introducción al Hydroviewer de GEOGLOWS"
+            "2. RFS Model Formulation": "2. Formulación del Modelo RFS"
+            "3. RFS Available Data": "3. Datos Disponibles de RFS"
+            "4. RFS Hydroviewer 101": "4. Introducción al Hydroviewer de RFS"
             "What's New?": "Novedades"
             Model Overview: "Resumen del Modelo"
             V3 Model Improvements: "Mejoras del Modelo V3"
@@ -137,9 +138,9 @@ plugins:
             California's Central Valley: "Vallée Centrale de Californie"
             Webinars: "Webinaires"
             "1. GEOGLOWS History and Introducing RFS Version 2": "1. Historique de GEOGLOWS et Présentation de RFS Version 2"
-            "2. GEOGLOWS Model Formulation": "2. Formulation du Modèle GEOGLOWS"
-            "3. GEOGLOWS Available Data": "3. Données Disponibles de GEOGLOWS"
-            "4. GEOGLOWS Hydroviewer 101": "4. Introduction à l'Hydroviewer GEOGLOWS"
+            "2. RFS Model Formulation": "2. Formulation du Modèle RFS"
+            "3. RFS Available Data": "3. Données Disponibles du RFS"
+            "4. RFS Hydroviewer 101": "4. Introduction à l'Hydroviewer RFS"
             "What's New?": "Nouveautés"
             Model Overview: "Aperçu du Modèle"
             V3 Model Improvements: "Améliorations du Modèle V3"
@@ -200,13 +201,14 @@ nav:
           - Finding River Numbers: rfs/tutorials/find-river-numbers.md
           - Web Maps (GIS Layers): rfs/tutorials/web-map.md
           - Calculating Streamflow Volume: rfs/tutorials/streamflow-volume.md
-      - Part 6 Improving Model Results:
-          - Contributing Data: rfs/improving-results/contributing-data.md
+      # Hidden for now: Part 6 Improving Model Results (also excluded under exclude_docs above)
+      # - Part 6 Improving Model Results:
+      #     - Contributing Data: rfs/improving-results/contributing-data.md
       - Webinars:
           - "1. GEOGLOWS History and Introducing RFS Version 2": rfs/webinars/rfs-v2-webinar-1.md
-          - "2. GEOGLOWS Model Formulation": rfs/webinars/rfs-v2-webinar-2.md
-          - "3. GEOGLOWS Available Data": rfs/webinars/rfs-v2-webinar-3.md
-          - "4. GEOGLOWS Hydroviewer 101": rfs/webinars/rfs-v2-webinar-4.md
+          - "2. RFS Model Formulation": rfs/webinars/rfs-v2-webinar-2.md
+          - "3. RFS Available Data": rfs/webinars/rfs-v2-webinar-3.md
+          - "4. RFS Hydroviewer 101": rfs/webinars/rfs-v2-webinar-4.md
       - Publications: publications.md
   - GRACE Regional Analyst:
       - Part 1 Background:

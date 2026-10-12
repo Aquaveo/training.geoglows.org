@@ -1,6 +1,6 @@
 ---
 webinar:
-  title: "3. GEOGLOWS Available Data"
+  title: "3. RFS Available Data"
   date: "7 October 2025"
   youtube_id: "jm9AXHNO2RI"
   video_width_max: "720"

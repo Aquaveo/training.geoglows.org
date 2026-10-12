@@ -1,6 +1,6 @@
 # Available Data
 
-RFS produces streamflow values in around 4.9 million streams. Each stream segment has its own values that can be downloaded and used. The data are available through the [datastore](using-datastore.md) or through several different [web applications](../web-apps/overview.md). There are also advanced options to view the data through code; look at our [advanced section](accessing-data.md).
+RFS produces streamflow values in around 4.9 million streams. Each stream segment has its own values that can be downloaded and used. The data are available through the [datastore](accessing-data/datastore.md) or through several different [web applications](../web-apps/overview.md). There are also advanced options to view the data through code; look at our [advanced section](accessing-data/advanced-methods.md).
 
 There are 3 main sets of data.
 
@@ -8,7 +8,7 @@ There are 3 main sets of data.
 2. The 15-day forecast data
 3. The 45-day forecast data
 
-Each of these is explained in more depth in the following sections. There is also more information in the [datastore](using-datastore.md).
+Each of these is explained in more depth in the following sections. There is also more information in the [datastore](accessing-data/datastore.md).
 
 ## Retrospective Data
 

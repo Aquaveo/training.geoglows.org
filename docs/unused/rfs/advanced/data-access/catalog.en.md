@@ -13,7 +13,7 @@ under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){:tar
 ## Table of datasets
 
 The easiest way to find and download RFS V3 data is the [RFS Data Store](https://apps.geoglows.org/previews/rfs-data-store/datasets/v3){:target="_blank"},
-which describes each dataset and lets you download only the rivers and dates you need. See [The Datastore](../../../../rfs/what-is-it/using-datastore.md) for
+which describes each dataset and lets you download only the rivers and dates you need. See [The Datastore](../../../../rfs/data/accessing-data/datastore.md) for
 instructions.
 
 All RFS V3 datasets are stored in a single public AWS S3 bucket, `river-forecast-system-v3`, in the `us-west-2` region. You **do not need** an AWS

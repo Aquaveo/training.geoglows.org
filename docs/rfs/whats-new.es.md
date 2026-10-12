@@ -13,5 +13,5 @@ Este sitio de capacitación se centra en la versión 3 de RFS (River Forecast Sy
     1. HydroSOS
     2. FEWS
 6. **Productos de mapeo de inundaciones**
-7. **Almacén de datos** - Hay un nuevo almacén de datos disponible para descargar los productos de RFSv3: [https://apps.geoglows.org/previews/rfs-data-store/](https://apps.geoglows.org/previews/rfs-data-store/). Este sitio proporciona metadatos e información sobre los datos disponibles y permite a los usuarios explorar y descargar los productos de datos de su interés. Consulte [El Almacén de Datos](what-is-it/using-datastore.md) para obtener instrucciones sobre cómo usarlo.
+7. **Almacén de datos** - Hay un nuevo almacén de datos disponible para descargar los productos de RFSv3: [https://apps.geoglows.org/previews/rfs-data-store/](https://apps.geoglows.org/previews/rfs-data-store/). Este sitio proporciona metadatos e información sobre los datos disponibles y permite a los usuarios explorar y descargar los productos de datos de su interés. Consulte [El Almacén de Datos](data/accessing-data/datastore.md) para obtener instrucciones sobre cómo usarlo.
 8. **Cambios en este sitio** - Este sitio se actualizó y reorganizó. Parte de la información más avanzada se trasladó a una sección avanzada. También se agregó información sobre aguas subterráneas.

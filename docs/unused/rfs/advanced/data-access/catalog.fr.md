@@ -13,7 +13,7 @@ Le Système de Prévision Fluviale (RFS) fournit 4 principaux types de jeux de d
 ## Tableau des jeux de données
 
 Le moyen le plus simple de trouver et de télécharger les données du RFS V3 est le [Magasin de Données du RFS](https://apps.geoglows.org/previews/rfs-data-store/datasets/v3){:target="_blank"},
-qui décrit chaque jeu de données et vous permet de télécharger uniquement les rivières et les dates dont vous avez besoin. Consultez [Le Magasin de Données](../../../../rfs/what-is-it/using-datastore.md) pour
+qui décrit chaque jeu de données et vous permet de télécharger uniquement les rivières et les dates dont vous avez besoin. Consultez [Le Magasin de Données](../../../../rfs/data/accessing-data/datastore.md) pour
 les instructions.
 
 Tous les jeux de données du RFS V3 sont stockés dans un seul bucket public AWS S3, `river-forecast-system-v3`, dans la région `us-west-2`. Vous **n'avez pas besoin** d'un compte

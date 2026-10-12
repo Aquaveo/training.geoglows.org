@@ -1,6 +1,6 @@
 # Datos Disponibles
 
-RFS produce valores de caudal en alrededor de 4.9 millones de ríos. Cada segmento de río tiene sus propios valores que se pueden descargar y utilizar. Los datos están disponibles a través del [almacén de datos](using-datastore.md) o de varias [aplicaciones web](../web-apps/overview.md). También hay opciones avanzadas para ver los datos mediante código; consulte nuestra [sección avanzada](accessing-data.md).
+RFS produce valores de caudal en alrededor de 4.9 millones de ríos. Cada segmento de río tiene sus propios valores que se pueden descargar y utilizar. Los datos están disponibles a través del [almacén de datos](accessing-data/datastore.md) o de varias [aplicaciones web](../web-apps/overview.md). También hay opciones avanzadas para ver los datos mediante código; consulte nuestra [sección avanzada](accessing-data/advanced-methods.md).
 
 Hay 3 conjuntos principales de datos.
 
@@ -8,7 +8,7 @@ Hay 3 conjuntos principales de datos.
 2. Los datos de pronóstico de 15 días
 3. Los datos de pronóstico de 45 días
 
-Cada uno se explica con más detalle en las siguientes secciones. También hay más información en el [almacén de datos](using-datastore.md).
+Cada uno se explica con más detalle en las siguientes secciones. También hay más información en el [almacén de datos](accessing-data/datastore.md).
 
 ## Datos Retrospectivos
 

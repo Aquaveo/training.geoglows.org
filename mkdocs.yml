@@ -33,23 +33,18 @@ plugins:
           nav_translations:
             Home: "Inicio"
             River Forecast System: "River Forecast System"
-            Part 1 Model Formulation: "Parte 1: Formulación del Modelo"
-            Part 2 Available Data: "Parte 2: Datos Disponibles"
             Hydrography: "Hidrografía"
             Retrospective Data: "Datos Retrospectivos"
             Forecast Data: "Datos Pronosticados"
-            Part 3 Accessing Data: "Parte 3: Acceso a los Datos"
             Finding River Numbers: "Encontrar Números de Río"
             Querying Data: "Consultando Datos"
             API (Data Service): "API (Servicio de Datos)"
             Web App: "Aplicación Web"
-            Part 5 Bias Correction: "Parte 5: Corrección de Sesgo"
             Correcting Forecasts: "Corregir Pronósticos"
             GRACE Regional Analyst: "GRACE Regional Analyst"
             Overview: "Descripción General"
             Publications: "Publicaciones"
             Code Notebooks: "Notebooks de Código"
-            Part 4 Tutorials: "Parte 4: Tutoriales"
             Web Maps (GIS Layer): "Mapas Web (Capa SIG)"
             Part 1 Background: "Parte 1: Fundamentos"
             The GRACE Mission: "La Misión GRACE"
@@ -79,45 +74,44 @@ plugins:
             "3. GEOGLOWS Available Data": "3. Datos Disponibles de GEOGLOWS"
             "4. GEOGLOWS Hydroviewer 101": "4. Introducción al Hydroviewer de GEOGLOWS"
             "What's New?": "Novedades"
-            "Part 1 What is it?": "Parte 1: ¿Qué es?"
             Model Overview: "Resumen del Modelo"
             V3 Model Improvements: "Mejoras del Modelo V3"
             Model Inputs: "Entradas del Modelo"
             River Routing: "Enrutamiento Fluvial"
             Flood Mapping: "Mapeo de Inundaciones"
             Available Data: "Datos Disponibles"
-            The Datastore: "El Almacén de Datos"
             Overview of Available Applications: "Resumen de las Aplicaciones Disponibles"
             Calculating Streamflow Volume: "Cálculo del Volumen de Caudal"
             Web Maps (GIS Layers): "Mapas Web (Capas SIG)"
             Part 2 Model Formulation: "Parte 2: Formulación del Modelo"
-            Part 3 Globally Available Web Applications: "Parte 3: Aplicaciones Web Disponibles Globalmente"
-            Part 5 Improving Model Results: "Parte 5: Mejora de los Resultados del Modelo"
             Accessing Data: "Acceso a los Datos"
+            The Datastore: "El Almacén de Datos"
+            Advanced Accessing Methods: "Métodos Avanzados de Acceso"
+            Accessing Flood Maps: "Acceso a los Mapas de Inundación"
             Contributing Data: "Contribución de Datos"
+            What to Find on This Site: "Qué Encontrar en Este Sitio"
+            Part 3 Data: "Parte 3: Datos"
+            Part 4 Globally Available Web Applications: "Parte 4: Aplicaciones Web Disponibles Globalmente"
+            Part 5 Tutorials: "Parte 5: Tutoriales"
+            Part 6 Improving Model Results: "Parte 6: Mejora de los Resultados del Modelo"
         - locale: fr
           name: Français
           build: true
           nav_translations:
             Home: "Accueil"
             River Forecast System: "Système de Prévision Fluviale"
-            Part 1 Model Formulation: "Partie 1 : Formulation du Modèle"
-            Part 2 Available Data: "Partie 2 : Données Disponibles"
             Hydrography: "Hydrographie"
             Retrospective Data: "Données Rétrospectives"
             Forecast Data: "Données Prévisionnelles"
-            Part 3 Accessing Data: "Partie 3 : Accès aux Données"
             Finding River Numbers: "Trouver les Numéros de Rivière"
             Querying Data: "Interrogation des Données"
             API (Data Service): "API (Service de Données)"
             Web App: "Application Web"
-            Part 5 Bias Correction: "Partie 5 : Correction du Biais"
             Correcting Forecasts: "Correction des Prévisions"
             GRACE Regional Analyst: "GRACE Regional Analyst"
             Overview: "Vue d'Ensemble"
             Publications: "Publications"
             Code Notebooks: "Notebooks de Code"
-            Part 4 Tutorials: "Partie 4 : Tutoriels"
             Web Maps (GIS Layer): "Cartes Web (Couche SIG)"
             Part 1 Background: "Partie 1 : Contexte"
             The GRACE Mission: "La Mission GRACE"
@@ -147,22 +141,26 @@ plugins:
             "3. GEOGLOWS Available Data": "3. Données Disponibles de GEOGLOWS"
             "4. GEOGLOWS Hydroviewer 101": "4. Introduction à l'Hydroviewer GEOGLOWS"
             "What's New?": "Nouveautés"
-            "Part 1 What is it?": "Partie 1 : Qu'est-ce que c'est ?"
             Model Overview: "Aperçu du Modèle"
             V3 Model Improvements: "Améliorations du Modèle V3"
             Model Inputs: "Entrées du Modèle"
             River Routing: "Routage Fluvial"
             Flood Mapping: "Cartographie des Inondations"
             Available Data: "Données Disponibles"
-            The Datastore: "Le Magasin de Données"
             Overview of Available Applications: "Aperçu des Applications Disponibles"
             Calculating Streamflow Volume: "Calcul du Volume d'Écoulement"
             Web Maps (GIS Layers): "Cartes Web (Couches SIG)"
             Part 2 Model Formulation: "Partie 2 : Formulation du Modèle"
-            Part 3 Globally Available Web Applications: "Partie 3 : Applications Web Disponibles Mondialement"
-            Part 5 Improving Model Results: "Partie 5 : Amélioration des Résultats du Modèle"
             Accessing Data: "Accès aux Données"
+            The Datastore: "Le Magasin de Données"
+            Advanced Accessing Methods: "Méthodes d'Accès Avancées"
+            Accessing Flood Maps: "Accès aux Cartes d'Inondation"
             Contributing Data: "Contribution de Données"
+            What to Find on This Site: "Ce Que Vous Trouverez sur ce Site"
+            Part 3 Data: "Partie 3 : Données"
+            Part 4 Globally Available Web Applications: "Partie 4 : Applications Web Disponibles Mondialement"
+            Part 5 Tutorials: "Partie 5 : Tutoriels"
+            Part 6 Improving Model Results: "Partie 6 : Amélioration des Résultats du Modèle"
 theme:
   name: readthedocs
   custom_dir: overrides
@@ -180,25 +178,29 @@ nav:
   - Home: index.md
   - River Forecast System:
       - What's New?: rfs/whats-new.md
-      - Part 1 What is it?:
-          - Model Overview: rfs/what-is-it/model-overview.md
-          - Available Data: rfs/what-is-it/available-data.md
-          - Accessing Data: rfs/what-is-it/accessing-data.md
-          - The Datastore: rfs/what-is-it/using-datastore.md
+      - Part 1 Background:
+          - Model Overview: rfs/background/model-overview.md
+          - What to Find on This Site: rfs/background/site-guide.md
       - Part 2 Model Formulation:
           - Overview: rfs/model-formulation/model-formulation.md
           - V3 Model Improvements: rfs/model-formulation/v3-improvements.md
           - Model Inputs: rfs/model-formulation/model-inputs.md
           - River Routing: rfs/model-formulation/river-routing.md
           - Flood Mapping: rfs/model-formulation/flood-mapping.md
-      - Part 3 Globally Available Web Applications:
+      - Part 3 Data:
+          - Available Data: rfs/data/available-data.md
+          - Accessing Data:
+              - The Datastore: rfs/data/accessing-data/datastore.md
+              - Advanced Accessing Methods: rfs/data/accessing-data/advanced-methods.md
+              - Accessing Flood Maps: rfs/data/accessing-data/flood-maps.md
+      - Part 4 Globally Available Web Applications:
           - Overview of Available Applications: rfs/web-apps/overview.md
           - Hydroviewer: rfs/web-apps/hydroviewer.md
-      - Part 4 Tutorials:
+      - Part 5 Tutorials:
           - Finding River Numbers: rfs/tutorials/find-river-numbers.md
           - Web Maps (GIS Layers): rfs/tutorials/web-map.md
           - Calculating Streamflow Volume: rfs/tutorials/streamflow-volume.md
-      - Part 5 Improving Model Results:
+      - Part 6 Improving Model Results:
           - Contributing Data: rfs/improving-results/contributing-data.md
       - Webinars:
           - "1. GEOGLOWS History and Introducing RFS Version 2": rfs/webinars/rfs-v2-webinar-1.md

@@ -1,6 +1,6 @@
 # Données Disponibles
 
-Le RFS produit des valeurs de débit pour environ 4,9 millions de cours d'eau. Chaque segment de cours d'eau possède ses propres valeurs, qui peuvent être téléchargées et utilisées. Les données sont accessibles via le [magasin de données](using-datastore.md) ou via plusieurs [applications web](../web-apps/overview.md). Il existe également des options avancées pour consulter les données à l'aide de code ; consultez notre [section avancée](accessing-data.md).
+Le RFS produit des valeurs de débit pour environ 4,9 millions de cours d'eau. Chaque segment de cours d'eau possède ses propres valeurs, qui peuvent être téléchargées et utilisées. Les données sont accessibles via le [magasin de données](accessing-data/datastore.md) ou via plusieurs [applications web](../web-apps/overview.md). Il existe également des options avancées pour consulter les données à l'aide de code ; consultez notre [section avancée](accessing-data/advanced-methods.md).
 
 Il existe 3 grands ensembles de données :
 
@@ -8,7 +8,7 @@ Il existe 3 grands ensembles de données :
 2. Les données de prévision à 15 jours
 3. Les données de prévision à 45 jours
 
-Chacun d'eux est expliqué plus en détail dans les sections suivantes. Vous trouverez également plus d'informations dans le [magasin de données](using-datastore.md).
+Chacun d'eux est expliqué plus en détail dans les sections suivantes. Vous trouverez également plus d'informations dans le [magasin de données](accessing-data/datastore.md).
 
 ## Données Rétrospectives
 

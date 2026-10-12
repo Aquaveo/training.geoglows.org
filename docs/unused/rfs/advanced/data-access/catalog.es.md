@@ -13,7 +13,7 @@ bajo [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){:targ
 ## Tabla de conjuntos de datos
 
 La forma más sencilla de encontrar y descargar los datos de RFS V3 es el [Almacén de Datos de RFS](https://apps.geoglows.org/previews/rfs-data-store/datasets/v3){:target="_blank"},
-que describe cada conjunto de datos y le permite descargar solo los ríos y las fechas que necesita. Consulte [El Almacén de Datos](../../../../rfs/what-is-it/using-datastore.md) para obtener
+que describe cada conjunto de datos y le permite descargar solo los ríos y las fechas que necesita. Consulte [El Almacén de Datos](../../../../rfs/data/accessing-data/datastore.md) para obtener
 instrucciones.
 
 Todos los conjuntos de datos de RFS V3 se almacenan en un único bucket público de AWS S3, `river-forecast-system-v3`, en la región `us-west-2`. **No necesita** una cuenta

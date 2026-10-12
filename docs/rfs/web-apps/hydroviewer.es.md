@@ -87,7 +87,7 @@ Por defecto, al hacer clic en un río se mostrará el pronóstico a 15 días des
 
 ![Gráfico de pronóstico](../../static/images/forecast_es.png)
 
-Aquí se muestra un ejemplo de gráfico de pronóstico. Por defecto, los períodos de retorno están desactivados, pero al hacer clic sobre ellos se pueden mostrar en el gráfico. Encontrará más información sobre cómo interpretar este gráfico en la sección [Datos de Pronóstico](../what-is-it/available-data.md#datos-de-pronostico-de-15-dias) de esta capacitación.
+Aquí se muestra un ejemplo de gráfico de pronóstico. Por defecto, los períodos de retorno están desactivados, pero al hacer clic sobre ellos se pueden mostrar en el gráfico. Encontrará más información sobre cómo interpretar este gráfico en la sección [Datos de Pronóstico](../data/available-data.md#datos-de-pronostico-de-15-dias) de esta capacitación.
 
 También hay una tabla que muestra el porcentaje de miembros del ensamble que exceden cada período de retorno en cada día. Esto ayuda a mostrar la probabilidad de que se exceda un determinado período de retorno.
 

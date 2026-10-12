@@ -87,7 +87,7 @@ Par défaut, lorsque vous cliquez sur un cours d'eau, la prévision à 15 jours 
 
 ![Graphique de prévision](../../static/images/forecast.png)
 
-Un exemple de graphique de prévision est présenté ici. Par défaut, les périodes de retour sont masquées, mais vous pouvez les afficher sur le graphique en cliquant dessus. Plus d'informations sur l'interprétation de ce graphique se trouvent dans la section [Données de Prévision](../what-is-it/available-data.md#donnees-de-prevision-a-15-jours) de cette formation.
+Un exemple de graphique de prévision est présenté ici. Par défaut, les périodes de retour sont masquées, mais vous pouvez les afficher sur le graphique en cliquant dessus. Plus d'informations sur l'interprétation de ce graphique se trouvent dans la section [Données de Prévision](../data/available-data.md#donnees-de-prevision-a-15-jours) de cette formation.
 
 Un tableau indique également, pour chaque jour, le pourcentage de membres de l'ensemble qui dépassent chaque période de retour. Cela aide à montrer la probabilité qu'une période de retour donnée soit dépassée.
 

@@ -6,7 +6,7 @@ The [RFS Data Store](https://apps.geoglows.org/previews/rfs-data-store) is the p
 
 The home page lists each version of RFS. Select **RFS v3**, the current version, to see its datasets. RFS v2 and v1 are archives that you can browse, but their data cannot be downloaded through this app.
 
-![The RFS Data Store home page, listing each model version](../../static/images/datastore-versions.jpg)
+![The RFS Data Store home page, listing each model version](../../../static/images/datastore-versions.jpg)
 
 ## 2. Find a dataset
 
@@ -26,7 +26,7 @@ Each dataset page has three tabs:
 - **Download**: tools for downloading the data (see below).
 - **Documentation**: more detailed technical information.
 
-![A dataset page with its Overview, Download, and Documentation tabs](../../static/images/datastore-dataset-page.jpg)
+![A dataset page with its Overview, Download, and Documentation tabs](../../../static/images/datastore-dataset-page.jpg)
 
 ### Metadata and dataset information
 
@@ -41,7 +41,7 @@ The **Overview** tab is a good place to start before downloading anything. It de
 - **Changelog**: a history of updates to the dataset.
 - **Related datasets**: links to other datasets that are often used together, such as the hourly, daily, and monthly discharge.
 
-![Dataset metadata and variables on the Overview tab](../../static/images/datastore-metadata.jpg)
+![Dataset metadata and variables on the Overview tab](../../../static/images/datastore-metadata.jpg)
 
 ## 4. Download the data
 
@@ -53,12 +53,12 @@ On the **Download** tab, work through the numbered steps:
 4. **Terms of use**: read the data usage agreement and check both boxes to accept it and the dataset's license.
 5. **Request**: sign in, review the summary of your request (including its estimated size), and select **Download**.
 
-![Choosing an area of interest on the Download tab](../../static/images/datastore-area-of-interest.jpg)
+![Choosing an area of interest on the Download tab](../../../static/images/datastore-area-of-interest.jpg)
 
 ### Downloading it yourself
 
 If you would rather download the data with your own tools, the **Download it yourself** section at the bottom of the Download tab gives ready-to-use commands for s5cmd, the AWS CLI, Python, and JavaScript. The data are stored in a public bucket, so these commands do not require an account.
 
-![Ready-to-use download commands in the Download it yourself section](../../static/images/datastore-download-yourself.jpg)
+![Ready-to-use download commands in the Download it yourself section](../../../static/images/datastore-download-yourself.jpg)
 
 The **Packages** page of the Data Store also links to the two maintained code libraries for reading RFS data: **geoglows** for Python and **riverforecastsystem** for JavaScript.

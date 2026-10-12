@@ -6,7 +6,7 @@ El [Almacén de Datos de RFS](https://apps.geoglows.org/previews/rfs-data-store)
 
 La página de inicio enumera cada versión de RFS. Seleccione **RFS v3**, la versión actual, para ver sus conjuntos de datos. RFS v2 y v1 son archivos históricos que puede explorar, pero sus datos no se pueden descargar a través de esta aplicación.
 
-![La página de inicio del Almacén de Datos de RFS, con la lista de cada versión del modelo](../../static/images/datastore-versions.jpg)
+![La página de inicio del Almacén de Datos de RFS, con la lista de cada versión del modelo](../../../static/images/datastore-versions.jpg)
 
 ## 2. Busque un conjunto de datos
 
@@ -26,7 +26,7 @@ Cada página de conjunto de datos tiene tres pestañas:
 - **Download** (Descarga): herramientas para descargar los datos (ver más abajo).
 - **Documentation** (Documentación): información técnica más detallada.
 
-![Una página de conjunto de datos con sus pestañas Overview, Download y Documentation](../../static/images/datastore-dataset-page.jpg)
+![Una página de conjunto de datos con sus pestañas Overview, Download y Documentation](../../../static/images/datastore-dataset-page.jpg)
 
 ### Metadatos e información del conjunto de datos
 
@@ -41,7 +41,7 @@ La pestaña **Overview** es un buen punto de partida antes de descargar cualquie
 - **Registro de cambios**: un historial de las actualizaciones del conjunto de datos.
 - **Conjuntos de datos relacionados**: enlaces a otros conjuntos de datos que suelen usarse juntos, como el caudal horario, diario y mensual.
 
-![Metadatos y variables del conjunto de datos en la pestaña Overview](../../static/images/datastore-metadata.jpg)
+![Metadatos y variables del conjunto de datos en la pestaña Overview](../../../static/images/datastore-metadata.jpg)
 
 ## 4. Descargue los datos
 
@@ -53,12 +53,12 @@ En la pestaña **Download**, siga los pasos numerados:
 4. **Términos de uso**: lea el acuerdo de uso de datos y marque ambas casillas para aceptarlo junto con la licencia del conjunto de datos.
 5. **Solicitud**: inicie sesión, revise el resumen de su solicitud (incluido su tamaño estimado) y seleccione **Download**.
 
-![Selección de un área de interés en la pestaña Download](../../static/images/datastore-area-of-interest.jpg)
+![Selección de un área de interés en la pestaña Download](../../../static/images/datastore-area-of-interest.jpg)
 
 ### Descargarlo usted mismo
 
 Si prefiere descargar los datos con sus propias herramientas, la sección **Download it yourself** (Descárguelo usted mismo), al final de la pestaña Download, ofrece comandos listos para usar con s5cmd, la AWS CLI, Python y JavaScript. Los datos se almacenan en un bucket público, por lo que estos comandos no requieren una cuenta.
 
-![Comandos de descarga listos para usar en la sección Download it yourself](../../static/images/datastore-download-yourself.jpg)
+![Comandos de descarga listos para usar en la sección Download it yourself](../../../static/images/datastore-download-yourself.jpg)
 
 La página **Packages** (Paquetes) del Almacén de Datos también enlaza a las dos bibliotecas de código mantenidas para leer datos de RFS: **geoglows** para Python y **riverforecastsystem** para JavaScript.

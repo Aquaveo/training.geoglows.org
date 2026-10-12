@@ -8,7 +8,7 @@ los principales cambios de la versión 3.
 los ríos de todo el mundo, y esta página describe lo que cubre el resto de la capacitación.
 
 **Parte 2, Formulación del Modelo,** explica cómo funciona el modelo: [un resumen](../model-formulation/model-formulation.md) del sistema,
-[las mejoras de la versión 3](../model-formulation/v3-improvements.md), [las entradas del modelo](../model-formulation/model-inputs.md),
+[las entradas del modelo](../model-formulation/model-inputs.md),
 [el enrutamiento fluvial](../model-formulation/river-routing.md) y [el mapeo de inundaciones](../model-formulation/flood-mapping.md). Si le interesa principalmente usar
 los datos, puede omitir esta parte.
 

@@ -8,7 +8,7 @@ version 3.
 around the world, and this page describes what the rest of the training covers.
 
 **Part 2, Model Formulation,** explains how the model works: [an overview](../model-formulation/model-formulation.md) of the system,
-[the improvements in version 3](../model-formulation/v3-improvements.md), [the model inputs](../model-formulation/model-inputs.md), [river routing](../model-formulation/river-routing.md),
+[the model inputs](../model-formulation/model-inputs.md), [river routing](../model-formulation/river-routing.md),
 and [flood mapping](../model-formulation/flood-mapping.md). If you are mainly interested in using the data, you can skip this part.
 
 **Part 3, Data,** describes [the data RFS produces](../data/available-data.md), including the retrospective simulation, the 15-day forecasts,

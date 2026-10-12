@@ -76,7 +76,6 @@ plugins:
             "4. RFS Hydroviewer 101": "4. Introducción al Hydroviewer de RFS"
             "What's New?": "Novedades"
             Model Overview: "Resumen del Modelo"
-            V3 Model Improvements: "Mejoras del Modelo V3"
             Model Inputs: "Entradas del Modelo"
             River Routing: "Enrutamiento Fluvial"
             Flood Mapping: "Mapeo de Inundaciones"
@@ -143,7 +142,6 @@ plugins:
             "4. RFS Hydroviewer 101": "4. Introduction à l'Hydroviewer RFS"
             "What's New?": "Nouveautés"
             Model Overview: "Aperçu du Modèle"
-            V3 Model Improvements: "Améliorations du Modèle V3"
             Model Inputs: "Entrées du Modèle"
             River Routing: "Routage Fluvial"
             Flood Mapping: "Cartographie des Inondations"
@@ -184,7 +182,6 @@ nav:
           - What to Find on This Site: rfs/background/site-guide.md
       - Part 2 Model Formulation:
           - Overview: rfs/model-formulation/model-formulation.md
-          - V3 Model Improvements: rfs/model-formulation/v3-improvements.md
           - Model Inputs: rfs/model-formulation/model-inputs.md
           - River Routing: rfs/model-formulation/river-routing.md
           - Flood Mapping: rfs/model-formulation/flood-mapping.md

@@ -8,7 +8,7 @@ qui résume les principaux changements de la version 3.
 dans les rivières du monde entier, et cette page décrit le contenu du reste de la formation.
 
 **La partie 2, Formulation du Modèle,** explique le fonctionnement du modèle : [un aperçu](../model-formulation/model-formulation.md) du système,
-[les améliorations de la version 3](../model-formulation/v3-improvements.md), [les entrées du modèle](../model-formulation/model-inputs.md),
+[les entrées du modèle](../model-formulation/model-inputs.md),
 [le routage fluvial](../model-formulation/river-routing.md) et [la cartographie des inondations](../model-formulation/flood-mapping.md). Si vous vous intéressez surtout à
 l'utilisation des données, vous pouvez passer cette partie.
 

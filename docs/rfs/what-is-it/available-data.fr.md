@@ -1,6 +1,6 @@
 # Données Disponibles
 
-Le RFS produit des valeurs de débit pour environ 4,9 millions de cours d'eau. Chaque segment de cours d'eau possède ses propres valeurs, qui peuvent être téléchargées et utilisées. Les données sont accessibles via le [magasin de données](using-datastore.md) ou via plusieurs [applications web](../web-apps/overview.md). Il existe également des options avancées pour consulter les données à l'aide de code ; consultez notre [section avancée](../advanced/data-access/code-and-apis.md).
+Le RFS produit des valeurs de débit pour environ 4,9 millions de cours d'eau. Chaque segment de cours d'eau possède ses propres valeurs, qui peuvent être téléchargées et utilisées. Les données sont accessibles via le [magasin de données](using-datastore.md) ou via plusieurs [applications web](../web-apps/overview.md). Il existe également des options avancées pour consulter les données à l'aide de code ; consultez notre [section avancée](accessing-data.md).
 
 Il existe 3 grands ensembles de données :
 

@@ -1,6 +1,6 @@
 # Datos Disponibles
 
-RFS produce valores de caudal en alrededor de 4.9 millones de ríos. Cada segmento de río tiene sus propios valores que se pueden descargar y utilizar. Los datos están disponibles a través del [almacén de datos](using-datastore.md) o de varias [aplicaciones web](../web-apps/overview.md). También hay opciones avanzadas para ver los datos mediante código; consulte nuestra [sección avanzada](../advanced/data-access/code-and-apis.md).
+RFS produce valores de caudal en alrededor de 4.9 millones de ríos. Cada segmento de río tiene sus propios valores que se pueden descargar y utilizar. Los datos están disponibles a través del [almacén de datos](using-datastore.md) o de varias [aplicaciones web](../web-apps/overview.md). También hay opciones avanzadas para ver los datos mediante código; consulte nuestra [sección avanzada](accessing-data.md).
 
 Hay 3 conjuntos principales de datos.
 
